@@ -1,8 +1,7 @@
 
 body{
-
     justify-content: center;
-    background-image: url(./wallpaperbetter.com_1920x1080.jpg);
+    background-image: url(/assets/wallpaperbetter.com_1920x1080.jpg);
     background-size: cover;
     display: flex;
     text-align: center;
@@ -162,3 +161,6 @@ button{
 }
 
 
+main {
+    margin-top: 12rem;
+}
