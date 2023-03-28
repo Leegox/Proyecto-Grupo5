@@ -1,0 +1,164 @@
+
+body{
+
+    justify-content: center;
+    background-image: url(./wallpaperbetter.com_1920x1080.jpg);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    position: relative; 
+    align-items: center;
+    flex-direction: column;
+    
+}
+.form1{ 
+    font-family: Arial, Helvetica, sans-serif;
+    height: 700px;
+    width: 500px;
+    margin: 30px;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 30px;
+    background-color: rgb(22, 39, 39);
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    
+}
+h1{
+    display: flex;
+    position: relative;
+    font-size: xx-large;
+    font-style: oblique;
+    color:rgb(219, 219, 219);
+}
+strong{
+    color: antiquewhite;
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+    margin:10px;
+    width: 400px;
+    height: 25px;
+    text-align: center;
+    font-size: medium;
+}
+label{
+
+    margin: 30px;
+    padding: 20px;
+
+}
+.nombre{
+    
+    margin: 30px;
+    padding: 2px;
+    text-align: center;
+
+    }
+.apellido{
+
+    margin: 30px;
+    padding: 2px;
+    text-align: center;
+}
+.dni{
+
+    margin: 30px;
+    padding: 2px;
+
+}
+.cuil{
+
+    margin: 30px;
+    padding: 2px;
+}
+.direc{
+
+    margin: 30px;
+    padding: 2px;
+
+}
+button{
+    width: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(22, 39, 39);
+    border-radius: 70px;
+    padding: 2rem;
+    color: antiquewhite;
+    flex-wrap: nowrap;
+    }
+
+.form2{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+    width: 500px;
+    margin-top: 500px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 30px;
+    background-color: rgb(22, 39, 39);
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+
+}
+.tel{
+    margin: 30px;
+    padding: 2px;
+}
+
+.correo{
+
+    margin: 30px;
+    padding: 2px;
+}
+.atras{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 70px;
+    padding: 10px;
+    color: antiquewhite;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.form3{
+
+    font-family: Arial, Helvetica, sans-serif;
+    height: 500px;
+    width: 500px;
+    margin-top: 500px;
+    margin-bottom: 30px;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 30px;
+    background-color: rgb(22, 39, 39);
+    align-items: center;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap
+}
+
+.numpedido{
+
+    margin-top: 5px;
+    padding: 2px;
+
+}
+
+.reclamo{
+    margin: 30px;
+    padding: 2px;
+}
+
+
