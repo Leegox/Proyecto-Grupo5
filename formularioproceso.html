@@ -15,7 +15,7 @@
         crossorigin="anonymous"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./CSS/proceso.css" />
 </head>
 
 <body>
@@ -63,6 +63,111 @@
             </div>
         </nav>
     </header>
+
+    <main>
+
+        <section class="form1">
+
+            <h1 id="FOR1">Datos Personales</h1>
+
+            <form>
+                <div class="nombre">
+
+                    <label for="nom"><strong>Nombre</strong></label><br>
+                    <input type="text" name="nom" id="nom" value=""><br>
+
+                </div>
+
+                <div class="apellido">
+
+                    <label for="ap"><strong>Apellido</strong></label><br>
+                    <input type="text" name="ap" id="ap" value=""><br>
+
+                </div>
+
+                <div class="dni">
+
+                    <label for="dni"><strong>Número de Documento</strong></label><br>
+                    <input type="text" name="dni" id="dni" value=""><br>
+
+                </div>
+
+                <div class="cuil">
+
+                    <label for="cuil"><strong>CUIL</strong></label><br>
+                    <input type="text" name="cuil" id="cuil" value=""><br>
+
+                </div>
+
+                <div class="direc">
+
+                    <label for="direc"><strong>Dirección</strong></label><br>
+                    <input type="text" name="direc" id="direc" value=""><br>
+
+                </div>
+            </form>
+        </section>
+
+
+        <a href="#FOR2"><button>Siguiente</button></a>
+
+
+        <section class="form2">
+
+            <h1 id="FOR2">Datos de contacto</h1>
+
+            <form>
+                <div class="tel">
+                    <label for="tel"><strong>Número de Teléfno</strong></label>
+                    <input type="text" name="tel" id="tel" value="">
+                </div>
+
+                <div class="correo">
+
+                    <label for="correo"><strong>Correo Electrónico</strong></label>
+                    <input type="text" name="correo" id="correo" value="">
+
+                </div>
+            </form>
+
+        </section>
+
+        <a href="#FOR1">
+            <div class="atras"><button>Atrás</button>
+        </a> <a href="#FOR3"><button>Siguiente</button></a>
+
+        </div>
+        <section class="form3">
+
+
+
+            <h1 id="FOR3">Datos de Reclamo</h1>
+
+            <form>
+                <div class="numpedido">
+                    <label for="rec"><strong>Número de Pedido</strong></label><br>
+                    <input type="text" name="rec" id="rec" value=""><br>
+                </div>
+
+                <div class="reclamo">
+
+                    <label for="reclamo"><strong>Detalle su reclamo</strong></label><br>
+                    <textarea> </textarea><br>
+                </div>
+            </form>
+        </section>
+
+        <a href="#FOR2"><button>Atrás</button></a>
+
+
+
+
+    </main>
+
+
+
+
+
 
     <script src="./js/main.js"></script>
 </body>
