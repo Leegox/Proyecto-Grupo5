@@ -1,7 +1,7 @@
 
 body{
     justify-content: center;
-    background-image: url(/assets/wallpaperbetter.com_1920x1080.jpg);
+    background-image: url(/assets/fondo2.jpg);
     background-size: cover;
     display: flex;
     text-align: center;
@@ -12,7 +12,7 @@ body{
 }
 .form1{ 
     font-family: Arial, Helvetica, sans-serif;
-    height: 700px;
+    height: 70rem;
     width: 500px;
     margin: 30px;
     flex-direction: column;
@@ -32,10 +32,10 @@ h1{
     position: relative;
     font-size: xx-large;
     font-style: oblique;
-    color:rgb(219, 219, 219);
+    color:rgb(250, 243, 243);
 }
 strong{
-    color: antiquewhite;
+    color: rgb(250, 247, 247);
 }
 input{
     border-radius: 10px;
@@ -94,7 +94,7 @@ button{
 
 .form2{
     font-family: Arial, Helvetica, sans-serif;
-    height: 300px;
+    height: 500px;
     width: 500px;
     margin-top: 500px;
     margin-bottom: 30px;
@@ -162,5 +162,5 @@ button{
 
 
 main {
-    margin-top: 12rem;
+    margin-top: 11rem;
 }
