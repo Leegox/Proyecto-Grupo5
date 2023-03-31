@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario</title>
+    <title>Formulario de Contacto</title>
 
     <!--    Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,7 +15,8 @@
         crossorigin="anonymous"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/proceso.css">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img src="/assets/logo.png" alt="Logo" width="55" height="35"
+                    <img src="./assets/logo.png" alt="Logo" width="55" height="35"
                         class="d-inline-block align-text-top logo" />
                     Grupo 5
                 </a>
@@ -51,7 +52,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" href="./formulario.html">Formulario Contacto</a>
+                                    <a class="dropdown-item" href="./formulariocontacto.html">Formulario Contacto</a>
                                 </li>
                                 <li>
                                     <a class="dropdown-item" href="./formularioproceso.html">Formulario Proceso</a>
@@ -65,6 +66,28 @@
     </header>
 
     <script src="./js/main.js"></script>
+
+    <!-- Formulario de contacto -->
+    <section class="form2">
+
+        <h1 id="FOR2">Datos de contacto</h1>
+
+        <form>
+            <div class="tel">
+                <label for="tel"><strong>Número de Teléfno</strong></label>
+                <input type="text" name="tel" id="tel" value="">
+            </div>
+
+            <div class="correo">
+
+                <label for="correo"><strong>Correo Electrónico</strong></label>
+                <input type="text" name="correo" id="correo" value="">
+
+            </div>
+        </form>
+
+    </section>
+
 </body>
 
 </html>
