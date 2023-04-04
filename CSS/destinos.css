@@ -1,0 +1,46 @@
+main{
+    position: relative;
+    display: flex ;
+    padding: 3rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    font-weight: 900;
+    position: relative;
+    padding: 4rem;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+h4{
+
+    padding: 2rem;
+}
+.col{
+    margin-top: 50px;
+}
+.dest1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+}
+.dest2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+}
+.dest3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;;
+}
