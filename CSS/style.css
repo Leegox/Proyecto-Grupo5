@@ -8,9 +8,48 @@
 }
 
 .icons-redes:hover {
-  color: green;
+  color: black;
 }
 
 .navbarrr {
-  margin-left: 83.1rem;
+  margin-left: 5rem;
+}
+
+.navbar-brand {
+  margin-left: 5rem;
+}
+
+.container-icons {
+  margin-right: 5rem;
+}
+
+nav {
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.contenedor-img {
+  margin-top: 6.4rem;
+}
+
+.h1 {
+  font-size: 4rem;
+}
+
+  .carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .carousel-caption h5 {
+        font-size: 14px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
 }
