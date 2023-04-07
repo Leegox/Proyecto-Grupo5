@@ -15,7 +15,7 @@ h1{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    font-family: "poppins", sans-serif;
+    font-family: 'Roboto Slab', serif;
     background-image: linear-gradient(45deg, #00275C 50%, #FFCC00 100%, #00275C 100%);
     -webkit-background-clip: text;
     color: transparent;
@@ -24,6 +24,7 @@ h1{
 h4{
     font-size: 30px;
     padding: 2rem;
+    font-family: 'Cinzel', serif;
 }
 .col{
     margin-top: 50px;
@@ -76,6 +77,8 @@ h4{
 }
 p{
     font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 

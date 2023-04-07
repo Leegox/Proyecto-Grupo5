@@ -1,0 +1,34 @@
+Rio de janeiro quedo modificado, usar las columnas en los demas destinos
+Cefi, hacer nosotros.html igual al destinos html
+Lautaro, arreglar el index
+
+Los 4, ideas sobre como usar JS y jquery en la web.
+
+Chiara, terminar el footer y wireframe de figma.
+
+Naza modificar Formularios y todo lo que esta en la clase body, encerrarlo en un section asi la nav no se rompe.
+y cambiar formulario igual al wireframe que se va a subir.
+
+
+L
+
+
+
+
+
+
+
+
+
+Paginas utiles para codigo e ideas:
+
+https://www.free-css.com/
+https://www.mclibre.org/consultar/htmlcss/html/html-plantilla.html
+https://theinpaint.com/
+https://tinywow.com/
+https://html5up.net/
+
+Denle amor al chatgpt
+
+https://chat.openai.com/chat
+

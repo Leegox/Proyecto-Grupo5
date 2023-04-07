@@ -174,3 +174,41 @@ button{
 main {
     margin-top: 1rem;
 }
+
+
+.logo {
+    border-radius: 10px;
+  }
+  
+  .icons-redes:hover {
+    color: black;
+  }
+  
+  .navbarrr {
+    margin-left: 5rem;
+  }
+  
+  .navbar-brand {
+    margin-left: 5rem;
+  }
+  
+  .container-icons {
+    margin-right: 5rem;
+  }
+  
+  nav {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .navbar {
+    background-color: #a1c5e7;
+  }
+  
+  nav li {
+    padding: 0 15px;
+  }
+  
+  .border-end {
+    color: black;
+  }
