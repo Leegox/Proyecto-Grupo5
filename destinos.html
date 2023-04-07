@@ -15,8 +15,8 @@
         crossorigin="anonymous"></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/CSS/style.css" />
     <link rel="stylesheet" href="./CSS/destinos.css">
+    <link rel="stylesheet" href="/CSS/style.css" />
 
 
 
@@ -28,9 +28,9 @@
 <body>
 
     <!-- Topbar Start -->
-    <div class="container-fluid bg-secondary">
-        <div class="row py-2 px-lg-1">
-    
+    <div class="container-fluid bg-success fixed-top">
+        <div class="row py-2 px-lg-1 container-icons">
+
             <div class="col-lg-12 text-end text-lg-right">
                 <div class="d-inline-flex align-items-center">
                     <a class="text-white px-3" href="">
@@ -50,53 +50,66 @@
         </div>
     </div>
     <!-- Topbar End -->
-    
-        <!--     Header - Nav  -->
-        <header>
-            <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assets/logo.png" alt="Logo" width="55" height="35"
-                            class="d-inline-block align-text-top logo" />
-                        Grupo 5
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav navbarrr">
-                            <li class="nav-item border-end">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                            </li>
-                            <li class="nav-item  border-end">
-                                <a class="nav-link" href="./organizacion.html">Organizacion</a>
-                            </li>
-                            <li class="nav-item border-end">
-                                <a class="nav-link" href="./presentacionpersonal.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item border-end">
-                                <a class="nav-link" href="./destinos.html">Destinos</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Formularios
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a class="dropdown-item" href="./formulariocontacto.html">Formulario Contacto</a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="./formularioproceso.html">Formulario Proceso</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
+
+    <!--     Header - Nav  -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/logo completo con fondo color.png" alt="Logo" height="60"
+                        class="d-inline-block align-text-top logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-black" id="navbarNavDropdown">
+                    <ul class="navbar-nav navbarrr">
+                        <li class="nav-item border-end border-dark">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item border-end border-dark">
+                            <a class="nav-link" href="./destinos.html">Destinos</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown border-end border-dark">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Acerca de
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#organizacion">Sobre Organizacion</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./presentacionpersonal.html">Sobre Nosotros</a>
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Formularios
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="./formulariocontacto.html">Formulario Contacto</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="./formularioproceso.html">Formulario Proceso</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
         </header>
 <!--Destinos-->
         <main>
