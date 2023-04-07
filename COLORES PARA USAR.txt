@@ -1,0 +1,16 @@
+COLORES
+
+azul oscuro #00275C
+
+azul opaco #355A8B
+
+celeste #A1C5E7 (es el celeste del logo)
+
+amarillo muy claro #FFEFBC
+
+amarillo "oro" #B9A700
+
+amarillo claro #D3C653
+
+amarillo extra claro/"transparente" #FFFBD6
+
