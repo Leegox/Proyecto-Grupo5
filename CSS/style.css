@@ -116,6 +116,15 @@ max-width: 100%;
 }
 
 
+
+
+/* HR DIVISOR */
+
+
+
+
+
+
 /* CSS DE VENTANA EMERGENTE */
 
 
@@ -154,3 +163,112 @@ max-width: 100%;
 }
 
 /* FIN CSS DE VENTANA EMERGENTE */
+
+
+
+
+
+
+
+
+
+
+
+
+     /*** BARRITA DIVISORA ***/
+     .section-title::before {
+      position: absolute;
+      content: "";
+      width: 150px;
+      height: 7px;
+      left: 0;
+      bottom: 0;
+      background: var(--dark);
+      border-radius: 2px;
+    }
+    
+    .section-title.text-center::before {
+      left: 50%;
+      margin-left: -75px;
+    }
+    
+    .section-title.section-title-sm::before {
+      width: 90px;
+      height: 10px;
+    }
+    
+    .section-title::after {
+      position: absolute;
+      content: "";
+      width: 5%;
+      height: 7px;
+      bottom: 0px;
+      background: rgb(6, 21, 233);
+      -webkit-animation: section-title-run 5s infinite linear;
+      animation: section-title-run 5s infinite linear;
+    }
+    
+    
+    .section-title.section-title-sm::after {
+      width: 4px;
+      height: 3px;
+    }
+    
+    .section-title.text-center::after {
+      -webkit-animation: section-title-run-center 5s infinite linear;
+      animation: section-title-run-center 5s infinite linear;
+    }
+    
+    .section-title.section-title-sm::after {
+      -webkit-animation: section-title-run-sm 5s infinite linear;
+      animation: section-title-run-sm 5s infinite linear;
+    }
+    
+    @-webkit-keyframes section-title-run {
+      0% {left: 0; } 50% { left : 145px; } 100% { left: 0; }
+    }
+    
+    @-webkit-keyframes section-title-run-center {
+      0% { left: 50%; margin-left: -75px; } 50% { left : 50%; margin-left: 45px; } 100% { left: 50%; margin-left: -75px; }
+    }
+    
+    @-webkit-keyframes section-title-run-sm {
+      0% {left: 0; } 50% { left : 85px; } 100% { left: 0; }
+    }
+
+
+
+
+
+#aboutus {
+  margin-bottom: 400px;
+}
+
+    .about_section{
+      width: 100%;
+      float: left;
+  }
+  .advisor_section_2 {
+      width: 100%;
+      float: left;
+  }
+  .image_8{
+      width: 100%;
+      float: left;
+      border-radius: 50%;
+  }
+  .about_taital{
+      width: 100%;
+      float: left;
+      font-size: 40px;
+      color: #1d1c24;
+      font-weight: bold;
+  }
+  .lorem_text {
+      width: 100%;
+      float: left;
+      font-size: 16px;
+      color: #1d1c24;
+      margin-left: 0px;
+      padding-bottom: 20px;
+  }
