@@ -47,11 +47,23 @@ nav li {
 
 .contenedor-img {
   margin-top: 7.9rem;
+
+}
+
+.img-header{
+max-width: 100%;
+}
+
+@media (max-width:1450px) {
+  .img-header{
+    height: 600px
+    }
 }
 
 .h1 {
   font-size: 4rem;
-  margin-bottom: 20rem;
+  margin-bottom: 4rem;
+  font-family: 'Roboto Slab', serif;
 }
 
   .carousel-caption {
@@ -62,20 +74,22 @@ nav li {
     z-index: 1;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1450px) {
     .carousel-caption h5 {
-        font-size: 14px;
+        font-size: 2rem;
     }
 
     .carousel-caption h1 {
-        font-size: 30px;
+        font-size: 2rem;
     }
 }
+
+/* Organizacion  */
 
 #organizacion {
   background-color: white;
   margin-top: 6.4rem;
- padding: 3% 15%; 
+ padding: 3% 3%; 
 }
 
 .h2 .roww {
@@ -91,6 +105,52 @@ nav li {
   width: 370px;
 }
 
+@media (max-width: 450px) {
+  .my-carousel {
+   max-width: 100%; /* o la altura que desees */
+  }
+}
+
 .p-text {
   font-size: 2rem;
 }
+
+
+/* CSS DE VENTANA EMERGENTE */
+
+
+#cookie-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  backdrop-filter: blur(5px);
+}
+
+#cookie-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#accept-cookies {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#accept-cookies:hover {
+  background-color: #3e8e41;
+}
+
+/* FIN CSS DE VENTANA EMERGENTE */
