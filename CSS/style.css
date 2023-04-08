@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+
+/* Navbar  */
 .logo {
   border-radius: 10px;
 }
@@ -27,6 +29,21 @@ nav {
   margin-top: 2.5rem;
   font-size: 1.2rem;
 }
+
+.navbar {
+  background-color: #a1c5e7;
+}
+
+nav li {
+  padding: 0 15px;
+}
+
+.border-end {
+  color: black;
+}
+
+
+-----------------------
 
 .contenedor-img {
   margin-top: 7.9rem;
@@ -65,19 +82,6 @@ nav {
   margin-left: 3rem;
 }
 
-
-.navbar {
-  background-color: #a1c5e7;
-}
-
-nav li {
-  padding: 0 15px;
-}
-
-.border-end {
-  color: black;
-}
-
 .img-carouselsito {
   max-width: 100%;
   height: 300px;
@@ -90,42 +94,3 @@ nav li {
 .p-text {
   font-size: 2rem;
 }
-
-/* CSS DE VENTANA EMERGENTE */
-
-
-#cookie-popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-  backdrop-filter: blur(5px);
-}
-
-#cookie-container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-#accept-cookies {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-#accept-cookies:hover {
-  background-color: #3e8e41;
-}
-
-/* FIN CSS DE VENTANA EMERGENTE */
