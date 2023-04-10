@@ -7,6 +7,49 @@ main{
     flex-direction: column;  
 }
 
+
+/* Navbar  */
+.logo {
+    border-radius: 10px;
+  }
+  
+  .icons-redes:hover {
+    color: black;
+  }
+  
+  .navbarrr {
+    margin-left: 5rem;
+  }
+  
+  .navbar-brand {
+    margin-left: 5rem;
+  }
+  
+  .container-icons {
+    margin-right: 5rem;
+  }
+  
+  nav {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .navbar {
+    background-color: #a1c5e7;
+  }
+  
+  nav li {
+    padding: 0 15px;
+  }
+  
+  .border-end {
+    color: black;
+  }
+  
+  
+
+
+
 h1{
     font-size: 50px;
     font-weight: 900;
@@ -75,6 +118,61 @@ h4{
     background-color: #FFFFFF;
     padding: 35px;
 }
+.dest6{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color:#A1C5EF;
+    padding: 35PX;
+}
+.dest7{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color: #FFFFFF;
+    padding: 35px;
+}
+.dest8{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color:#A1C5EF;
+    padding: 35PX;
+}
+.dest9{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color: #FFFFFF;
+    padding: 35px;
+}
+.dest10{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color:#A1C5EF;
+    padding: 35PX;
+}
+.dest11{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color: #FFFFFF;
+    padding: 35px;
+}
+
 p{
     font-size: 20px;
     font-weight: 400;
@@ -123,6 +221,54 @@ header {
 }
 
 .imagen-destino5{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino6{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino7{
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino8{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino9{
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino10{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino11{
 
     justify-content: center;
     align-items: center;
