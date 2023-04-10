@@ -248,7 +248,7 @@ textarea {
     padding: 1rem;
     margin: 10px;
     width: 1100px;
-    height: 70px;
+    height: 200px;
     text-align: center;
     font-size: medium;
     border: 10px;
@@ -262,12 +262,12 @@ textarea {
 }
 
 .numpedido {
+    text-align: left;
     justify-content: left;
     align-items: center;
     flex-direction: column;
     margin: 30px;
     padding: 2px;
-    display: flex
 }
 #num{
     width: 1100px;
@@ -283,17 +283,45 @@ textarea {
 
 }
 .reclamo {
-    justify-content: left;
+    text-align: left;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     margin: 30px;
     padding: 2px;
-    display: flex;
     height: 300px;
 }
 
 main {
     margin-top: 200px;
+}
+.linea{
+    height: 30px;
+    font-size: 53px;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 0;
+    color: white;
+}
+
+.fa-plane{
+    position: relative;
+    justify-content: right;
+    margin-left:1230px;
+    color:white;
+}
+.lineaPunteada{
+
+    justify-content:center;
+    text-align: center;
+    height: 58px;
+    position: relative;
+}
+footer{
+    width: 2665px;
+    height: 200px;
+    background-color: #355A8B;
+
 }
 
 .logo {
@@ -313,7 +341,10 @@ main {
 }
 
 .container-icons {
-    margin-right: 5rem;
+    background-color: #355A8B;
+}
+.d-inline-flex{
+    margin-right: 100px;
 }
 
 nav {
