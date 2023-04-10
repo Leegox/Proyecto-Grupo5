@@ -1,0 +1,27 @@
+hr po absolute, div relative, icono que se va acomodando, debajo del hr
+
+
+
+settimeout que se vea el login y que se ejecute la funcion que guarda el formulario al array
+
+
+
+guardar los elementos de los formularios en arrays que se puedan consultar por consola
+
+
+
+jquery se puede usar para acceder a ciertos estilos, cambiar estilos según eventos, por ej etc, cambiar fondo por ej etc, lo revisa el profe, se puede reemplazar por js tranquilamente, por ej funciones que se puedan realizar recien cuando se cargue la pagina
+
+
+
+
+por cada formulario completo, un nuevo objeto del array con un id nuevo que sea el lugar del objeto más 1, es como una "base de datos", para poder mostrar por consola
+
+jquery para modal, para el registro de reclamo cuando se completa, se muestra el formulario completado, show "modal".show, algo así, idea del profe
+
+
+
+
+
+
+
