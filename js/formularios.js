@@ -1,9 +1,5 @@
-$ (document).ready(()=> {
 
-    $ ('.form1'). click (()=>{
-
-    $('.form1').toggle();
-
-    });
-
-});
+function mostrar(){
+    document.getElementById('mostrarForm').style.display='block';
+    
+};

@@ -9,9 +9,9 @@
     
     <!-- Jquery -->
     <script
-  src="https://code.jquery.com/jquery-3.6.4.js"
-  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
-  crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.6.4.js"
+    integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
 
     <!--    Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -20,19 +20,30 @@
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
 
-            <!--   FONTAWESOME -->
+    <!--   ROBOTO SLAB FONT EXTRA 900 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+
+    <!-- ROBOTO LIGHT & REGULAR  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--   FONTAWESOME -->
 
     <script src="https://kit.fontawesome.com/43a1bbf0a6.js" crossorigin="anonymous"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/proceso.css" />
 
+    <script src="./js/formularios.js"></script>
 </head>
 
 <body>
     <!--     Header - Nav  -->
     <header>
-         <!-- Topbar Start -->
+    <!-- Topbar Start -->
     <div class="container-fluid bg-success fixed-top">
         <div class="row py-2 px-lg-1 container-icons">
 
@@ -119,28 +130,42 @@
     </header>
   </body>
 
-  <script src="./js/main.js"></script>
+  <script src="./js/formularios.js"></script>
 
 <main>
 <section class="container-fluid text-center">
-    
-        <section class="col-md-4 align-items-center form1">
-        <h1 id="FOR1">Datos Personales</h1>
-       
+    <section class="form1">
+        
+        <h1 >FORMULARIO DE PROCESO: QUEJAS Y RECLAMOS</h1>
 
+            <p class="p1"> Si desea realizar una queja o reclamo, por favor, 
+                complete este formulario y nos contactaremos a la brevedad</p>
+                <p class="p2">*Campos obligatorios</p><br>
+            <h2 id="FOR1"><u>DATOS PERSONALES</u></h2>
+
+
+        <section class="col-md-6 MAYOR">
 <form>  
-    <div class="col-md-6 align-items-center COL1">
+    <div class=" COL1">
     <div class="nombre">
 
-        <label for="nom"><strong>Nombre</strong></label><br>
-        <input type="text" name="nom" id="nom" value="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+        </svg>
+
+        <label for="nom"><strong>Nombre completo: *</strong></label><br>
+        <input  type="text" placeholder="ej.: Hornero" name="nom" id="nom" value="">
         
     </div>
 
     <div class="apellido">
 
-        <label for="ap"><strong>Apellido</strong></label><br>
-        <input type="text" name="ap" id="ap" value="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+        </svg>
+
+        <label for="ap"><strong>Apellido/s: *</strong></label><br>
+        <input type="text" placeholder="ej.: Argentino" name="ap" id="ap" value="">
 
     </div>
 </div>
@@ -151,62 +176,120 @@
 
             <form>
 
-        <div class="col-md-6 align-items-center COL2">
+        <div class="col-md-6 COL2">
             <div class="dni">
 
-                <label for="dni"><strong>Número de Documento</strong></label><br>
-                <input type="text" name="dni" id="dni" value="">
+                <div class="radio">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+                        <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    </svg>
+
+                    <input type="radio" name="my-input" id="check">
+                    <label for="dni"><strong>D.N.I/C.U.I.L</strong></label>
+                    <input type="radio" name="my-input" id="check">
+                    <label for="dni"><strong>Pasporte: *</strong></label>
+                    <input type="text" placeholder="XXXXXXXX" name="dni" id="dni" value="">
+                </div>
 
             </div>
 
-            <div class="cuil">
+            <div class="telefono">
 
-                <label for="cuil"><strong>CUIL</strong></label><br>
-                <input type="text" name="cuil" id="cuil" value="">
+                <div class="radio">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg>
+                    <input type="radio" name="my-input" id="check">
+                    <label for="tel">
+                    <strong>Télefono</strong></label>
+                    <input type="radio" name="my-input" id="check">
+                    <label for="cel"><strong>Celular:</strong></label>
+                    <input type="text" placeholder="ej.: (área) XXXX - XXXX" name="tel/cel" id="tel/cel" value="">
+                </div>
 
             </div>
         </div>
 
-            <div class="col-md-12 align-items-lg-center DIR">
+            <div class="col-md-6 COL3">
+                
             <div class="direc">
 
-                <label for="direc"><strong>Dirección</strong></label><br>
-                <input type="text" name="direc" id="direc" value="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
+                </svg>
+
+                <label for="direc"><strong>Dirección (ciudad y pais): *</strong></label><br>
+                <input type="text" placeholder="ej.: Buenos Aires, Argentina" name="direc" id="direc" value="">
+
+            </div>
+
+            <div class="e-mail">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                    <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                    <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                </svg>
+
+                <label for="e-mail"><strong>E-mail de Contacto:*</strong></label><br>
+                <input type="text" placeholder="ejemplo@gmail.com" name="direc" id="e-mail" value="">
 
             </div>
         </div>
     
-        </form>
+        </form>    
+        
     </section>
 
+        <h4><button id="boton" onclick="mostrar();"><u>Siguiente</u><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+    <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
+    </svg></button></h4>
+    
 
-        <a href="#FOR3"><button>Siguiente</button></a>
+</section>
+
 
     </div>
+    <section id="mostrarForm">
     <section class="form3">
 
 
 
-        <h1 id="FOR3">Datos de Reclamo</h1>
+        <h1>FORMULARIO DE PROCESO: QUEJAS Y RECLAMOS</h1>
 
-        <form>
-            <div class="numpedido">
-                <label for="rec"><strong>Número de Pedido</strong></label><br>
-                <input type="text" name="rec" id="rec" value="">
+            <p class="p2">*Campos obligatorios</p><br>
+        <h2 id="FOR1"><u>DATOS DEL RECLAMO / QUEJA</u></h2>
+
+        <form> <div class="numpedido">
+            <div class="radio">
+                <input type="radio" name="my-input" id="check">
+                    <label for="num"><strong>Número de Transaccion (Viaje a reclamar)</strong></label>
+                    <input type="radio" name="my-input" id="check">
+                    <label for="num"><strong>Queja: *</strong></label>
+                    <input type="text" placeholder="XXXXXXXX  |  ej.: Vuelo atrasado " name="num" id="num" value="">
             </div>
+        </div>
 
             <div class="reclamo">
 
-                <label for="reclamo"><strong>Detalle su reclamo</strong></label><br>
-                <textarea style="width: 900px; max-height: 122px;"> </textarea><br>
+                        <label for="reclamo"><strong>Detalles del reclamo/queja: *</strong></label>
+                         <textarea placeholder="Máximo 1000 caracteres"></textarea>
+                
             </div>
         </form>
+
+
+       <h4><button id="boton"><u>Enviar</u><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+            <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
+            </svg></button></h4>
     </section>
+     
     <br>
     <br>
 
 
 
+</section>
 </section>
 </main>
 
