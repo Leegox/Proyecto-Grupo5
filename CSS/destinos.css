@@ -118,6 +118,61 @@ h4{
     background-color: #FFFFFF;
     padding: 35px;
 }
+.dest6{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color:#A1C5EF;
+    padding: 35PX;
+}
+.dest7{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color: #FFFFFF;
+    padding: 35px;
+}
+.dest8{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color:#A1C5EF;
+    padding: 35PX;
+}
+.dest9{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color: #FFFFFF;
+    padding: 35px;
+}
+.dest10{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color:#A1C5EF;
+    padding: 35PX;
+}
+.dest11{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 4rem;
+    background-color: #FFFFFF;
+    padding: 35px;
+}
+
 p{
     font-size: 20px;
     font-weight: 400;
@@ -166,6 +221,54 @@ header {
 }
 
 .imagen-destino5{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino6{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino7{
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino8{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino9{
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino10{
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 400px;
+
+}
+.imagen-destino11{
 
     justify-content: center;
     align-items: center;
