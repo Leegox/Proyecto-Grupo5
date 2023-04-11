@@ -22,9 +22,11 @@
 }
 
 .container-icons {
-  margin-right: 5rem;
+  background-color: #355A8B;
 }
-
+.d-inline-flex{
+  margin-right: 100px;
+}
 nav {
   margin-top: 2.5rem;
   font-size: 1.2rem;

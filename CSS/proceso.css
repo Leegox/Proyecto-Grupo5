@@ -51,16 +51,36 @@ body {
 .COL3 {
     position: relative;
     display: flex;
+    width: 550px;
+    align-items: start;
+    text-align: start;
+}
+.COL4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 550px;
+}
+.COL5 {
+    position: relative;
+    display: flex;
+    width: 550px;
+}
+.COL6{
     flex-direction: row;
     flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: end;
+    position: relative;
+    display: flex;
     width: 550px;
+}
+.COL7{
+    text-align: start;
 }
 h1 {
     color: white;
     font-weight:900;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto", sans-serif;
     padding: 3rem;
     width: 1200px;
     font-size: 50px;
@@ -205,6 +225,106 @@ input {
     position: relative;
     margin: 40px;
     display: block;
+    height: 2200px;
+}
+.form-control{
+    border-radius: 15px;
+    padding: 1rem;
+    margin: 10px;
+    width: 535px;
+    height: 70px;
+    text-align: center;
+    font-size: medium;
+    border: 10px;
+    font-weight: 100;
+    background-color: rgb(206, 206, 206);
+    align-items: start;
+    display: flex;
+}
+option{
+    text-align: left;
+}
+.fechaSalida{
+    width: 550px;
+    height: 180px;
+    padding: 1rem;
+    text-align: start;
+}
+.fechaRegreso{
+    width: 550px;
+    height: 180px;
+    padding: 1rem;
+    text-align: start;
+}
+.pasajerosMenores{
+    width: 550px;
+    height: 180px;
+    padding: 1rem;
+    text-align: start;
+}
+.pasajerosMayores{
+    width: 550px;
+    height: 180px;
+    padding: 1rem;
+    text-align: start;
+}
+.Destino{
+    width: 550px;
+    height: 180px;
+    padding: 1rem;
+    text-align: start;
+}
+.Motivo{
+    width: 550px;
+    height: 180px;
+    text-align: start;
+    padding: 1rem;
+}
+.Descuento{
+    width: 550px;
+    height: 180px;
+    text-align: start;
+    padding: 1rem;
+}
+.imagenDestino{
+    display: flex;
+    margin: 35px;
+    padding-top: 10px;
+    padding-left: 15px;
+    height: 290px
+
+}
+.noti{
+    justify-content: flex-start;
+    align-items: start;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 1rem;
+    width: 500px;
+    flex-direction: row;
+}
+.notificaciones{
+    text-align: start;
+    flex-direction: column;
+    padding: 1rem;
+    margin-left:35px ;
+}
+#recibir{
+    width: 500px;
+}
+#soloPromos{
+    align-items: flex-start;
+    width: 550px;
+}
+
+#FOR2{
+    padding: 0;
+    padding-top: 3rem ;
+}
+.solicitar{
+    padding: 0; 
+    padding-bottom: 2rem;
 }
 .tel {
     align-items: center;
@@ -254,6 +374,14 @@ textarea {
     border: 10px;
     font-weight: 100;
     background-color: rgb(206, 206, 206);
+    max-height: 250px;
+}
+.enviar2{
+    width: 320px;
+    margin-top: 10px;
+    margin-left: 900px;
+    display: block;
+    position: absolute;
 }
 
 #rec {
@@ -318,7 +446,7 @@ main {
     position: relative;
 }
 footer{
-    width: 2665px;
+    width: 1860px;
     height: 200px;
     background-color: #355A8B;
 
