@@ -262,6 +262,15 @@ max-width: 100%;
       float: left;
       border-radius: 50%;
   }
+
+@media (max-width:1199px) {
+.image_8 {
+  height: 300px;
+  width: 300px;
+  float: none;
+}
+}
+
   .about_taital{
       width: 100%;
       float: left;
@@ -281,6 +290,10 @@ max-width: 100%;
 
 /* CARDS DESTINOS */
 
+
+.card {
+  margin-top: 10px;
+}
 
   .mb.card-body{
     text-align: center;
