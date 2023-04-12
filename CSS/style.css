@@ -248,7 +248,7 @@ max-width: 100%;
 /* NOSOTROS */
 
 #aboutus {
-  margin-bottom: 400px;
+  margin-bottom: 500px;
 }
 
     .about_section{
@@ -393,8 +393,13 @@ footer {
  background:#355A8B
 }
 .footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
- color:white
+ color:white;
 }
+
+.footer-big .footer-menu .contact-details li a,.footer-big p,.footer-big ul li {
+  color:black;
+ }
+
 .footer-menu {
  padding-left:48px
 }
@@ -483,3 +488,65 @@ footer {
       cursor: pointer;
       background: #FA6742;
       border-color: #FA6742; }
+
+
+
+
+
+      #sec-clima {
+        margin: 100px 0;
+      }
+
+      .button-clima {
+        display: block;
+        margin: 0 auto;
+        margin-top: 100px;
+      }
+      
+
+
+
+
+
+
+
+
+      /* Counter */  
+
+.stat {
+  background: url(../assets/4242.jpg);
+  padding-top: 50px;
+     padding-bottom: 50px;
+        background-attachment: fixed;
+         margin-top: 0.1rem;
+        }
+               .stat i {
+                 font-size: 50px;
+                 color: #355A8B;
+               }
+               
+               .stat-items h2 {
+                 font-size: 42px;
+                 color: #355A8B;
+               }
+               .stat p {
+                 font-weight: 600;
+                 letter-spacing: 1px;
+                 color: #355A8B;
+               }
+               
+               .stat i:hover {
+                 color: #B9A700;
+               }
+
+               #stats {
+                margin-top: 100px;
+                margin-bottom: 100px;
+               }
+
+               @media screen and (max-width: 1200px) {
+                #aboutus {
+                  margin-bottom: 700px;
+                }
+              }
+              

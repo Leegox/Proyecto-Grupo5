@@ -147,9 +147,9 @@
 
                             <div class="carousel-caption d-flex flex-column align-items-start justify-content-end">
                                 <div class="p-3">
-                                    <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill">Ver
+                                    <a href="./destinos.html" class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill">Ver
                                         destinos</a>
-                                    <a href="" class="btn btn-primary py-md-3 px-md-5 rounded-pill">Contactarse</a>
+                                    <a href="./formulariocontacto.html" class="btn btn-primary py-md-3 px-md-5 rounded-pill">Contactarse</a>
                                 </div>
                             </div>
                         </div>
@@ -238,6 +238,48 @@
             </section>
 
 
+ <!-- Counter -->
+
+ <section class="stat" id="stats">
+  <div class="content-box">
+    <br><br>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="stat-items">
+            <i class="fas fa-check-circle"></i>
+            <h2><span class="counter text-center">3000</span><span>+</span></h2>
+            <p>Vuelos realizados</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-items">
+            <i class="fas fa-check-circle"></i>
+            <h2><span class="counter text-center">50</span><span>+</span></h2>
+            <p>Pilotos profesionales</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-items">
+            <i class="fas fa-check-circle"></i>
+            <h2><span class="counter text-center">100</span><span>+</span></h2>
+            <p>Azafatas</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="stat-items">
+            <i class="fas fa-check-circle"></i>
+            <h2><span class="counter text-center">40</span><span>+</span></h2>
+            <p>Años de experiencia</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Counter end -->
+
+
 
 <section id="destinos">
 <div class="container text-center">
@@ -304,6 +346,21 @@
 
 
 
+<button  type="button" onclick="mostrarClima()" class="button-clima btn btn-warning">Ver clima en tu ciudad</button>
+
+<section id="sec-clima" class="text-center" style="display:none;">
+  <div id="ww_5d234e258fcb4" v='1.3' loc='auto' a='{"t":"responsive","lang":"es","sl_lpl":1,"ids":["wl893"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'><a href="https://weatherwidget.org/es/android-app/" id="ww_5d234e258fcb4_u" target="_blank">weatherwidget.org/es/android-app</a></div><script async src="https://app1.weatherwidget.org/js/?id=ww_5d234e258fcb4"></script>
+</section>
+
+<script>
+  function mostrarClima() {
+    var seccionClima = document.getElementById("sec-clima");
+    seccionClima.style.display = "block";
+  }
+</script>
+
+
+
 
     </main>
 
@@ -313,27 +370,16 @@
           <!-- start .container -->
           <div class="container">
             <div class="row">
-              <div class="col-md-3 col-sm-12">
+              <div class="col-md-3 col-12">
                 <div class="footer-widget">
                   <div class="widget-about">
-                    <img src="./assets/hornero logo.png" alt="" class="img-fluid">
-                    <p class="pfooter">Av. Montes de roca 751, C.A.B.A. Argentina</p>
-                    <ul class="contact-details">
-                      <li>
-                        <span class="icon-earphones"></span> Llamanos:
-                        <a href="tel:344-755-111">123-456-789</a>
-                      </li>
-                      <li>
-                        <span class="icon-envelope-open"></span>
-                        <a href="mailto:horneroargentino@ejemplo.com">ejemplo@ejemplo.com</a>
-                      </li>
-                    </ul>
+                    <img src="./assets/logo completo con fondo color.png" alt="" class="img-fluid">
                   </div>
                 </div>
                 <!-- Ends: .footer-widget -->
               </div>
               <!-- end /.col-md-4 -->
-              <div class="col-md-3 col-sm-4">
+              <div class="col-md-3 col-sm-4 text-center">
                 <div class="footer-widget">
                   <div class="footer-menu footer-menu--1">
                     <h4 class="footer-widget-title">Categorias</h4>
@@ -357,14 +403,26 @@
                         <a href="#">Formulario de reclamo</a>
                       </li>
                     </ul>
+                    <ul class="contact-details">
+                      <li>
+                        <span class="icon-earphones"></span> Llamanos:
+                        <a href="tel:344-755-111">123-456-789</a>
+                      </li>
+                      <li>
+                        <span class="icon-envelope-open"></span>
+                        <a href="mailto:horneroargentino@ejemplo.com">ejemplo@ejemplo.com</a>
+                      </li>
+                    </ul>
                   </div>
                   <!-- end /.footer-menu -->
                 </div>
                 <!-- Ends: .footer-widget -->
               </div>
               <!-- end /.col-md-3 -->
+
+              
       
-              <div class="col-md-3 col-sm-4">
+              <div class="col-md-3 col-sm-4 text-center">
                 <div class="footer-widget">
                   <div class="footer-menu">
                     <h4 class="footer-widget-title">Encontranos en</h4>
@@ -380,6 +438,9 @@
                       </li>
                       <li>
                         <a href="#">Linkedin</a>
+                      </li>
+                      <li>
+                        <p class="pfooter">Av. Montes de roca 751, C.A.B.A. Argentina</p>
                       </li>
                     </ul>
                   </div>
@@ -468,6 +529,11 @@
     <!-- FIN CODIGO DE VENTANA EMERGENTE -->
 
     <script src="./js/main.js"></script>
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js'></script><script  src="./js/script.js"></script>
 
 
 </body>
