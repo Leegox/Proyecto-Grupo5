@@ -378,8 +378,13 @@ footer {
  background:#355A8B
 }
 .footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
- color:white
+ color:white;
 }
+
+.footer-big .footer-menu .contact-details li a,.footer-big p,.footer-big ul li {
+  color:#B9A700;
+ }
+
 .footer-menu {
  padding-left:48px
 }
@@ -468,3 +473,9 @@ footer {
       cursor: pointer;
       background: #FA6742;
       border-color: #FA6742; }
+
+
+
+
+
+    
