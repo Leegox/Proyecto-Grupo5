@@ -286,11 +286,21 @@ option{
     text-align: start;
     padding: 1rem;
 }
-.imagennn{
-margin-left: 100px;
 
+#imgDestino {
+    
+    position: relative;
+    left: 572px;
+    top: -125px;
+    height: 300px;
+    width: 572px;
+    
+    
 
+    
 }
+
+
 .noti{
     justify-content: flex-start;
     align-items: start;
