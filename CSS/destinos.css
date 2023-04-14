@@ -1,3 +1,7 @@
+header {
+  margin-bottom: 4rem;
+}
+
 main{
     position: relative;
     display: flex ;
@@ -7,53 +11,59 @@ main{
     flex-direction: column;  
 }
 
+
 /* Navbar  */
 .logo {
-    border-radius: 10px;
-  }
-  
-  .icons-redes:hover {
-    color: black;
-  }
-  
-  .navbarrr {
-    margin-left: 5rem;
-  }
-  
-  .navbar-brand {
-    margin-left: 5rem;
-  }
-  
-  .container-icons {
-    margin-right: 5rem;
-  }
-  
-  nav {
-    margin-top: 2.5rem;
-    font-size: 1.2rem;
-  }
-  
-  .navbar {
-    background-color: #a1c5e7;
-  }
-  
-  nav li {
-    padding: 0 15px;
-  }
-  
-  .border-end {
-    color: black;
-  }
+  border-radius: 10px;
+}
+
+.icons-redes:hover {
+  color: black;
+}
+
+.navbarrr {
+  margin-left: 5rem;
+}
+
+.navbar-brand {
+  margin-left: 5rem;
+}
+
+.container-icons {
+  background-color: #355A8B;
+}
+.d-inline-flex{
+  margin-right: 100px;
+}
+nav {
+  margin-top: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  background-color: #a1c5e7;
+}
+
+nav li {
+  padding: 0 15px;
+}
+
+.border-end {
+  color: black;
+}
+
   
   
 
+.boton-tarjetas {
+  margin-top: 50px;
+}
 
 
 h1{
     font-size: 50px;
     font-weight: 900;
     position: relative;
-    padding: 4rem;
     justify-content: center;
     text-align: center;
     flex-direction: column;
@@ -66,7 +76,6 @@ h4{
     font-size: 30px;
     padding: 2rem;
     font-family: 'Cinzel', serif;
-    border: none;
 }
 .col{
     margin-top: 50px;
@@ -77,7 +86,6 @@ h4{
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 4rem;
     background-color: #FFFFFF;
     padding: 35px;
 }
@@ -86,9 +94,8 @@ h4{
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 4rem;
     background-color:#A1C5EF;
-    padding: 35PX;
+    padding: 35px;
 }
 .dest3{
     text-align: center;
@@ -180,9 +187,6 @@ p{
     font-weight: 400;
 }
 
-header {
-    margin-bottom: 10rem;
-}
 
 .imagen-destino1{
     
@@ -378,13 +382,8 @@ footer {
  background:#355A8B
 }
 .footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
- color:white;
+ color:white
 }
-
-.footer-big .footer-menu .contact-details li a,.footer-big p,.footer-big ul li {
-  color:#B9A700;
- }
-
 .footer-menu {
  padding-left:48px
 }
@@ -473,9 +472,23 @@ footer {
       cursor: pointer;
       background: #FA6742;
       border-color: #FA6742; }
+<<<<<<< HEAD
+=======
+
+ #services {
+  margin-top: 12rem;
+}
 
 
+#carousel-medios-pago {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#carousel-medios-pago .carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
 
 
-
-    
+>>>>>>> c880ee6373366dff2d8532750e35860d901708e9
