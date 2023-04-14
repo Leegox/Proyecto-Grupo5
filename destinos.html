@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>| Destinos</title>
 
-   
+
     <!--    Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
@@ -37,7 +37,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/destinos.css">
-  
+
 
 
 
@@ -131,46 +131,131 @@
                 </div>
             </div>
         </nav>
+
+
+
+        <section id="services" class="features-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-10">
+                        <div class="section-title text-center">
+                            <h3 class="title">Todos los medios de pago</h3>
+                            <p class="text">
+                                Ahora podes pagar tus viajes en un solo lugar y con todos los medios de pagos que
+                                ofrece <b>MercadoPago</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center my-2">
+                    <div class="col-12 text-center"><img src="https://pagos.airnet.com.ar/images/mp_banner-4.png"
+                            title="Mercado Pago - Medios de pago" alt="Mercado Pago - Medios de pago"
+                            class="d-none d-lg-inline"> <img src="https://pagos.airnet.com.ar/images/mp_banner-3.png"
+                            title="Mercado Pago - Medios de pago" alt="Mercado Pago - Medios de pago"
+                            class="d-inline d-lg-none"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="d-flex justify-content-center align-items-center boton-tarjetas">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#paymentModal">
+                Revisa nuestras promos actuales
+            </button>
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="paymentModal" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="paymentModalLabel">Actualmente tenemos promociones con las
+                            siguientes tarjetas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <section class="p-1 p-md-1" style="background-image: url();">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-12 col-md-12 col-lg-10 col-xl-12">
+                                    <div class="card rounded-3">
+                                        <div class="card-body p-1">
+                                            <form>
+                                                    <div class="d-flex flex-row align-items-center mb-1 pb-1 justify-content-center">
+                                                        <img class="img-fluid" src="https://img.icons8.com/color/48/000000/mastercard-logo.png" />
+                                                        <p href="#!" class="text-black ml-2 mb-0">12 cuotas sin interes</p>
+                                                    </div>
+                                                    
+                                                <div class="d-flex flex-row align-items-center mb-1 pb-1 justify-content-center">
+                                                    <img class="img-fluid"
+                                                        src="https://img.icons8.com/color/48/000000/visa.png" />
+                                              
+                                                    <p href="#!" class="text-black ml-2 mb-0">6 cuotas sin interes</p>
+                                                </div>
+                                                <div class="d-flex flex-row align-items-center mb-1 pb-1 justify-content-center">
+                                                    <img class="img-fluid"
+                                                        src="https://img.icons8.com/color/48/000000/amex.png" />
+                                                    <p href="#!" class="text-black ml-2 mb-0">3 cuotas sin interes</p>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
     </header>
     <!--Destinos-->
     <main>
-        <section class="container-fluid text-center">
-            <section class="col">
+        <section class="container-fluid">
+            <section class="col-12 titulo-h1 text-center contenedor-titulo">
                 <h1>CONOCÉ TODOS NUESTROS DESTINOS</h1>
             </section>
 
             <section class="dest1 row">
                 <div class="imagen-destino1 col-12 col-xl-6 mx-auto">
-                  <div id="carouselExampleIndicators" class="carousel slide my-carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                    <div id="carouselExampleIndicators" class="carousel slide my-carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/rio-de-janeiro.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/rio2.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/rio3.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="./assets/rio-de-janeiro.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./assets/rio2.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="./assets/rio3.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <div class="descripcion col-md-12 col-xl-6">
-                  <h4 class="text-black"><strong>RIO DE JANEIRO</strong></h4>
-                  <p>Río de Janeiro es famoso en el mundo entero por sus bonitas playas y sus simpáticos habitantes. La historia
-                    interracial de Brasil, marcada por la llegada de portugueses, japoneses, indios y alemanes, ha resultado en una
-                    sociedad multicultural y en una serie de festivales y celebraciones de renombre internacional.</p>
+                    <h4 class="text-black"><strong>RIO DE JANEIRO</strong></h4>
+                    <p>Río de Janeiro es famoso en el mundo entero por sus bonitas playas y sus simpáticos habitantes.
+                        La historia
+                        interracial de Brasil, marcada por la llegada de portugueses, japoneses, indios y alemanes, ha
+                        resultado en una
+                        sociedad multicultural y en una serie de festivales y celebraciones de renombre internacional.
+                    </p>
                 </div>
-              </section>
-              
+            </section>
+
             <section class="dest2 row">
 
                 <div class="col-md-12 col-xl-6">
@@ -306,47 +391,267 @@
                         New South Wales.</p>
                 </div>
             </section>
-        
-         
-        
-        <section class="dest6 row">
 
-            <div class="col-md-12 col-xl-6">
-                <h4 class="text-black"><strong>KIOTO</strong></h4>
-                <p>Es una ciudad con un rico patrimonio cultural y espiritual 
-                    que refleja la historia de Japón. Los visitantes pueden 
-                    disfrutar de los templos y santuarios, como el templo 
-                    Kiyomizu-dera, el templo Fushimi Inari Taisha y el 
-                    santuario de Heian. También es famosa por sus jardines, 
-                    como el jardín de rocas del Templo Ryoan-ji y el jardín del 
-                    Templo Tenryu-ji. Además, Kioto es un lugar ideal para experimentar 
-                    la cultura tradicional japonesa, incluyendo la ceremonia del té, la 
-                    caligrafía y la ceremonia de flores.</p>
-            </div>
-            <div class="imagen-destino8 col-lg-12 col-xl-4 mx-auto">
-                <div id="carouselExampleIndicators6" class="carousel slide my-carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./assets/Kioto_imagen1.jpg" class="d-block w-100 img-carouselsito" alt="...">
+
+
+            <section class="dest6 row">
+
+                <div class="col-md-12 col-xl-6">
+                    <h4 class="text-black"><strong>KIOTO</strong></h4>
+                    <p>Es una ciudad con un rico patrimonio cultural y espiritual
+                        que refleja la historia de Japón. Los visitantes pueden
+                        disfrutar de los templos y santuarios, como el templo
+                        Kiyomizu-dera, el templo Fushimi Inari Taisha y el
+                        santuario de Heian. También es famosa por sus jardines,
+                        como el jardín de rocas del Templo Ryoan-ji y el jardín del
+                        Templo Tenryu-ji. Además, Kioto es un lugar ideal para experimentar
+                        la cultura tradicional japonesa, incluyendo la ceremonia del té, la
+                        caligrafía y la ceremonia de flores.</p>
+                </div>
+                <div class="imagen-destino8 col-lg-12 col-xl-4 mx-auto">
+                    <div id="carouselExampleIndicators6" class="carousel slide my-carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
                         </div>
-                        <div class="carousel-item">
-                            <img src="./assets/kioto_imagen2.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/Kioto_imagen3.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/Kioto_imagen1.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/kioto_imagen2.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Kioto_imagen3.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section class="dest7 row">
+                <div class="imagen-destino7 col-lg-12 col-xl-4 mx-auto">
+                    <div id="carouselExampleIndicators7" class="carousel slide my-carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/Marrakech_imagen1.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Marrakech_imagen2.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Marrakesh_imagen_3.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="descripcion col-md-12 col-xl-6">
+                    <h4 class="text-black"><strong>MARRAKECH</strong></h4>
+                    <p>Es una ciudad histórica ubicada en el sur de Marruecos,
+                        conocida por su exótico ambiente y su rica cultura.
+                        Es famosa por su vibrante mercado al aire libre,
+                        la Plaza Jemaa el-Fna, sus antiguos palacios y mezquitas,
+                        y sus jardines como el Jardín Majorelle. Los visitantes
+                        pueden disfrutar de la gastronomía marroquí, experimentar
+                        un auténtico hammam (baño turco), y comprar artesanías y
+                        textiles locales en los zocos. Es un destino ideal para
+                        aquellos interesados en la historia, la cultura y la aventura en un entorno mágico.</p>
+                </div>
+            </section>
+            <section class="dest8 row">
+
+                <div class="col-md-12 col-xl-6">
+                    <h4 class="text-black"><strong>MONTREAL</strong></h4>
+                    <p>Es una vibrante ciudad canadiense que combina
+                        la cultura francesa y anglófona. Con su arquitectura
+                        histórica, festivales de música y deliciosa gastronomía,
+                        es un destino ideal para aquellos interesados en la cultura
+                        y la buena comida en un entorno acogedor.</p>
+                </div>
+                <div class="imagen-destino8 col-lg-12 col-xl-4 mx-auto">
+                    <div id="carouselExampleIndicators8" class="carousel slide my-carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/Montreal_imagen1.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Montreal_imagen2.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Montreal_imagen3.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="dest9 row">
+                <div class="imagen-destino9 col-lg-12 col-xl-4 mx-auto">
+                    <div id="carouselExampleIndicators9" class="carousel slide my-carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/Dubai_imagen1.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Dubai_imagen2.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Dubai_imagen3.jpg" class="d-block w-100 img-carouselsito" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-xl-6">
+                    <h4 class="text-black"><strong>DUBAI</strong></h4>
+                    <p>Es una ciudad moderna y futurista,
+                        conocida por su impresionante arquitectura
+                        y su estilo de vida lujoso. Es famosa por sus
+                        rascacielos como el Burj Khalifa, el edificio más
+                        alto del mundo, y por sus centros comerciales con
+                        tiendas de lujo y entretenimiento. También es conocida
+                        por sus playas, como la playa Jumeirah, y por el parque temático de Dubái.
+                        Los visitantes pueden disfrutar de una amplia variedad de
+                        actividades, como el esquí en la nieve en el centro comercial de Dubai,
+                        paseos en camello por el desierto, safaris, y cenas de alta cocina. Es un
+                        destino ideal para aquellos interesados en la vida de lujo y las experiencias
+                        únicas en un entorno futurista y espectacular.</p>
+                </div>
+            </section>
+
+            <section class="dest10 row">
+
+                <div class="col-md-12 col-xl-6">
+                    <h4 class="text-black"><strong>BANGKOK</strong></h4>
+                    <p>Es una ciudad vibrante y bulliciosa. Es conocida
+                        por sus templos budistas, como el Templo del Buda
+                        Esmeralda y el Templo del Amanecer, sus mercados
+                        nocturnos, la comida callejera, los rascacielos y
+                        la vida nocturna. Es un lugar donde se mezclan la
+                        tradición y la modernidad, y ofrece una amplia variedad
+                        de actividades y experiencias culturales para los visitantes.</p>
+                </div>
+                <div class="imagen-destino10 col-lg-12 col-xl-4 mx-auto">
+                    <div id="carouselExampleIndicators10" class="carousel slide my-carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/Bangkok_imagen1.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Marrakech_imagen2.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Bangkok_imagen3.jpg class=" d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="dest11 row">
+                <div class="imagen-destino11 col-lg-12 col-xl-4 mx-auto">
+                    <div id="carouselExampleIndicators11" class="carousel slide my-carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./assets/Barcelona_imagen1.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Barcelona_imagen2.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Barcelona_imagen3.jpg" class="d-block w-100 img-carouselsito"
+                                    alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-xl-6">
+                    <h4 class="text-black"><strong>BARCELONA</strong></h4>
+                    <p>Es una ciudad famosa por su impresionante arquitectura,
+                        su vibrante cultura y su deliciosa gastronomía.
+                        Algunos de sus principales atractivos incluyen la
+                        Sagrada Familia, el Parque Güell, la Casa Batlló y
+                        la Casa Milá, todas obras maestras del famoso arquitecto
+                        Antoni Gaudí. La ciudad también cuenta con una rica vida
+                        cultural, con una variedad de museos, galerías de arte y
+                        teatros, así como con una amplia selección de restaurantes
+                        que ofrecen platos locales e internacionales. Además, la ciudad
+                        es conocida por su animada vida nocturna, con una gran cantidad
+                        de bares y discotecas en los barrios del centro histórico, como
+                        el Barrio Gótico y El Raval. </p>
+                </div>
+            </section>
         </section>
+<<<<<<< HEAD
+=======
   
 
 
@@ -389,161 +694,8 @@
                     textiles locales en los zocos. Es un destino ideal para 
                     aquellos interesados en la historia, la cultura y la aventura en un entorno mágico.</p>
             </div>
+>>>>>>> 26f21fc7f4ab1c71717ed1e64545f408c6275eb1
         </section>
-        <section class="dest8 row">
-
-            <div class="col-md-12 col-xl-6">
-                <h4 class="text-black"><strong>MONTREAL</strong></h4>
-                <p>Es una vibrante ciudad canadiense que combina 
-                    la cultura francesa y anglófona. Con su arquitectura 
-                    histórica, festivales de música y deliciosa gastronomía, 
-                    es un destino ideal para aquellos interesados en la cultura 
-                    y la buena comida en un entorno acogedor.</p>
-            </div>
-            <div class="imagen-destino8 col-lg-12 col-xl-4 mx-auto">
-                <div id="carouselExampleIndicators8" class="carousel slide my-carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./assets/Montreal_imagen1.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/Montreal_imagen2.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/Montreal_imagen3.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
-     <section class="dest9 row">
-        <div class="imagen-destino9 col-lg-12 col-xl-4 mx-auto">
-            <div id="carouselExampleIndicators9" class="carousel slide my-carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./assets/Dubai_imagen1.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/Dubai_imagen2.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/Dubai_imagen3.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12 col-xl-6">
-            <h4 class="text-black"><strong>DUBAI</strong></h4>
-            <p>Es una ciudad moderna y futurista, 
-                conocida por su impresionante arquitectura 
-                y su estilo de vida lujoso. Es famosa por sus 
-                rascacielos como el Burj Khalifa, el edificio más 
-                alto del mundo, y por sus centros comerciales con 
-                tiendas de lujo y entretenimiento. También es conocida 
-                por sus playas, como la playa Jumeirah, y por el parque temático de Dubái. 
-                Los visitantes pueden disfrutar de una amplia variedad de 
-                actividades, como el esquí en la nieve en el centro comercial de Dubai, 
-                paseos en camello por el desierto, safaris, y cenas de alta cocina. Es un 
-                destino ideal para aquellos interesados en la vida de lujo y las experiencias 
-                únicas en un entorno futurista y espectacular.</p>
-        </div>
-     </section>
-     
-     <section class="dest10 row">
-
-     <div class="col-md-12 col-xl-6">
-        <h4 class="text-black"><strong>BANGKOK</strong></h4>
-        <p>Es una ciudad vibrante y bulliciosa. Es conocida 
-            por sus templos budistas, como el Templo del Buda 
-            Esmeralda y el Templo del Amanecer, sus mercados 
-            nocturnos, la comida callejera, los rascacielos y 
-            la vida nocturna. Es un lugar donde se mezclan la 
-            tradición y la modernidad, y ofrece una amplia variedad 
-            de actividades y experiencias culturales para los visitantes.</p>
-     </div>
-      <div class="imagen-destino10 col-lg-12 col-xl-4 mx-auto">
-        <div id="carouselExampleIndicators10" class="carousel slide my-carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="0"
-                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/Bangkok_imagen1.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/Marrakech_imagen2.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/Bangkok_imagen3.jpg class="d-block w-100 img-carouselsito" alt="...">
-                </div>
-            </div>
-         </div>
-         </div>
-         </section>
-         <section class="dest11 row">
-         <div class="imagen-destino11 col-lg-12 col-xl-4 mx-auto">
-         <div id="carouselExampleIndicators11" class="carousel slide my-carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="0"
-                    class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/Barcelona_imagen1.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/Barcelona_imagen2.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/Barcelona_imagen3.jpg" class="d-block w-100 img-carouselsito" alt="...">
-                </div>
-            </div>
-        </div>
-     </div>
-      <div class="col-md-12 col-xl-6">
-        <h4 class="text-black"><strong>BARCELONA</strong></h4>
-        <p>Es una ciudad famosa por su impresionante arquitectura, 
-            su vibrante cultura y su deliciosa gastronomía. 
-            Algunos de sus principales atractivos incluyen la 
-            Sagrada Familia, el Parque Güell, la Casa Batlló y 
-            la Casa Milá, todas obras maestras del famoso arquitecto 
-            Antoni Gaudí. La ciudad también cuenta con una rica vida 
-            cultural, con una variedad de museos, galerías de arte y 
-            teatros, así como con una amplia selección de restaurantes 
-            que ofrecen platos locales e internacionales. Además, la ciudad 
-            es conocida por su animada vida nocturna, con una gran cantidad 
-            de bares y discotecas en los barrios del centro histórico, como 
-            el Barrio Gótico y El Raval. </p>
-     </div>
-</section>
-</section>
-</section>
     </main>
 
 
@@ -555,139 +707,139 @@
 
     <footer class="footer-area footer--light">
         <div class="footer-big">
-          <!-- start .container -->
-          <div class="container">
-            <div class="row">
-              <div class="col-md-3 col-12">
-                <div class="footer-widget">
-                  <div class="widget-about">
-                    <img src="./assets/logo completo con fondo color.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-                <!-- Ends: .footer-widget -->
-              </div>
-              <!-- end /.col-md-4 -->
-              <div class="col-md-3 col-sm-4 text-center">
-                <div class="footer-widget">
-                  <div class="footer-menu footer-menu--1">
-                    <h4 class="footer-widget-title">Categorias</h4>
-                    <ul>
-                      <li>
-                        <a href="#">Inicio</a>
-                      </li>
-                      <li>
-                        <a href="#">Destinos</a>
-                      </li>
-                      <li>
-                        <a href="#">Sorbe nosotros</a>
-                      </li>
-                      <li>
-                        <a href="#">Sobre la organizacion</a>
-                      </li>
-                      <li>
-                        <a href="#">Formulario de contacto</a>
-                      </li>
-                      <li>
-                        <a href="#">Formulario de reclamo</a>
-                      </li>
-                    </ul>
-                    <ul class="contact-details">
-                      <li>
-                        <span class="icon-earphones"></span> Llamanos:
-                        <a href="tel:344-755-111">123-456-789</a>
-                      </li>
-                      <li>
-                        <span class="icon-envelope-open"></span>
-                        <a href="mailto:horneroargentino@ejemplo.com">ejemplo@ejemplo.com</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- end /.footer-menu -->
-                </div>
-                <!-- Ends: .footer-widget -->
-              </div>
-              <!-- end /.col-md-3 -->
+            <!-- start .container -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-12">
+                        <div class="footer-widget">
+                            <div class="widget-about">
+                                <img src="./assets/logo completo con fondo color.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <!-- Ends: .footer-widget -->
+                    </div>
+                    <!-- end /.col-md-4 -->
+                    <div class="col-md-3 col-sm-4 text-center">
+                        <div class="footer-widget">
+                            <div class="footer-menu footer-menu--1">
+                                <h4 class="footer-widget-title">Categorias</h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">Inicio</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Destinos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sorbe nosotros</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sobre la organizacion</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Formulario de contacto</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Formulario de reclamo</a>
+                                    </li>
+                                </ul>
+                                <ul class="contact-details">
+                                    <li>
+                                        <span class="icon-earphones"></span> Llamanos:
+                                        <a href="tel:344-755-111">123-456-789</a>
+                                    </li>
+                                    <li>
+                                        <span class="icon-envelope-open"></span>
+                                        <a href="mailto:horneroargentino@ejemplo.com">ejemplo@ejemplo.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end /.footer-menu -->
+                        </div>
+                        <!-- Ends: .footer-widget -->
+                    </div>
+                    <!-- end /.col-md-3 -->
 
-              
-      
-              <div class="col-md-3 col-sm-4 text-center">
-                <div class="footer-widget">
-                  <div class="footer-menu">
-                    <h4 class="footer-widget-title">Encontranos en</h4>
-                    <ul>
-                      <li>
-                        <a href="#">Facebook</a>
-                      </li>
-                      <li>
-                        <a href="#">Instagram</a>
-                      </li>
-                      <li>
-                        <a href="#">Twitter</a>
-                      </li>
-                      <li>
-                        <a href="#">Linkedin</a>
-                      </li>
-                      <li>
-                        <p class="pfooter">Av. Montes de roca 751, C.A.B.A. Argentina</p>
-                      </li>
-                    </ul>
-                  </div>
-                  <!-- end /.footer-menu -->
+
+
+                    <div class="col-md-3 col-sm-4 text-center">
+                        <div class="footer-widget">
+                            <div class="footer-menu">
+                                <h4 class="footer-widget-title">Encontranos en</h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">Facebook</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Instagram</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Twitter</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Linkedin</a>
+                                    </li>
+                                    <li>
+                                        <p class="pfooter">Av. Montes de roca 751, C.A.B.A. Argentina</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- end /.footer-menu -->
+                        </div>
+                        <!-- Ends: .footer-widget -->
+                    </div>
+                    <!-- end /.col-lg-3 -->
+
+                    <div class="col-md-3 col-sm-4">
+                        <div class="footer-widget">
+                            <div class="footer-menu no-padding">
+                                <h4 class="footer-widget-title text-center">CODIGO QR</h4>
+                                <ul>
+                                    <li class="text-center">
+                                        <img src="./assets/data fiscal.png" alt="">
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- end /.footer-menu -->
+                        </div>
+                        <!-- Ends: .footer-widget -->
+                    </div>
+                    <!-- Ends: .col-lg-3 -->
+
                 </div>
-                <!-- Ends: .footer-widget -->
-              </div>
-              <!-- end /.col-lg-3 -->
-      
-              <div class="col-md-3 col-sm-4">
-                <div class="footer-widget">
-                  <div class="footer-menu no-padding">
-                    <h4 class="footer-widget-title text-center">CODIGO QR</h4>
-                    <ul>
-                      <li class="text-center">
-                        <img src="./assets/data fiscal.png" alt="">
-                      </li>
-                  
-                    </ul>
-                  </div>
-                  <!-- end /.footer-menu -->
-                </div>
-                <!-- Ends: .footer-widget -->
-              </div>
-              <!-- Ends: .col-lg-3 -->
-      
+                <!-- end /.row -->
             </div>
-            <!-- end /.row -->
-          </div>
-          <!-- end /.container -->
+            <!-- end /.container -->
         </div>
         <!-- end /.footer-big -->
-      
+
         <div class="mini-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="copyright-text">
-                  <p>@COPYRIGHT 2023
-                    <a href="#">HORNERO ARGENTINO AEROLINEAS S.A.</a>. TODOS LOS DERECHOS RESERVADOS
-                  </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="copyright-text">
+                            <p>@COPYRIGHT 2023
+                                <a href="#">HORNERO ARGENTINO AEROLINEAS S.A.</a>. TODOS LOS DERECHOS RESERVADOS
+                            </p>
+                        </div>
+
+                        <!-- Back to top -->
+                        <a href="#start">
+                            <div id="back-to-top" class="back-to-top">
+                                <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                                    <i class="fa fa-angle-up"></i>
+                                </button>
+                        </a>
+                    </div>
+                    <!-- End Back to top -->
+
+
                 </div>
-      
- <!-- Back to top -->
- <a href="#start">
-    <div id="back-to-top" class="back-to-top" >
-        <button class="btn btn-dark" title="Back to Top" style="display: block;" >   
-            <i class="fa fa-angle-up"></i>
-        </button>
-    </a>
-    </div>
-    <!-- End Back to top -->
-
-
-              </div>
             </div>
-          </div>
         </div>
-      </footer>
+        </div>
+    </footer>
 
 
 
