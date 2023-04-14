@@ -33,6 +33,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/proceso.css">
+    <link rel="stylesheet" href="./CSS/contacto.css">
 </head>
 
 <body>
@@ -259,6 +260,8 @@
 
         </div>
         <div class="col-md-6 COL5">
+
+          
             <div class="col555">
 <div class="Destino">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16">
@@ -266,15 +269,20 @@
     </svg>
             <label for="Destino"><strong>Destino deseado: *</strong></label>
 
-    <select class="form-control" id="destino">
-            <option>Seleccionar...</option>
-            <option>Rio de Janeiro, Brasil</option>
-            <option>Paris, Francia</option>
-            <option>Sydney, Australia</option>
-            <option>New York, Estados Unidos</option>
+    <select class="form-control" id="destino" >
+            <option name="destinoImg" value="" >Seleccionar...</option>
+            <option name="destinoImg" value="./assets/rio-de-janeiro.jpg" >Rio de Janeiro, Brasil</option>
+            <option name="destinoImg" value="./assets/paris.jpg" >Paris, Francia</option>
+            <option name="destinoImg" value="./assets/sydney.jpg" >Sydney, Australia</option>
+            <option name="destinoImg" value="./assets/new-york.jpg" >New York, Estados Unidos</option>
+            <option name="destinoImg" value= ></option>
     </select>
 
+<!-- IMAGEN QUE CAMBIA SEGUN DESTINO, falta darle position, y ubicarla, con altura y ancho correctos, LUEGO DE ESO CAMBIAR EL SRC DE IMG A scr="" así vacío -->
 
+    <img id="imgDestino" src="./assets/imagen ejemplo.jpg" alt="">
+
+<!-- IMAGEN QUE CAMBIA SEGUN DESTINO -->
 
 </div>
 
@@ -298,10 +306,6 @@
 
 </div>
 
-<picture class="imagenDestino">
-    <img src="./assets/sydney.jpg">
-
-</picture>
 
     
     </div>
@@ -367,5 +371,8 @@
     </section>
 
 </section>
+
+<script src="./js/contacto.js"></script>
+
 </main>
 </html>
