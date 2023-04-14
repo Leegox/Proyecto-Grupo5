@@ -8,6 +8,12 @@ main{
 }
 
 /* Navbar  */
+
+.container-icons {
+  background-color: #355A8B;
+}
+
+
 .logo {
     border-radius: 10px;
   }
@@ -18,42 +24,55 @@ main{
   
   .navbarrr {
     margin-left: 5rem;
-  }
-  
-  .navbar-brand {
+}
+
+.navbar-brand {
     margin-left: 5rem;
-  }
-  
-  .container-icons {
-    margin-right: 5rem;
-  }
-  
-  nav {
+}
+
+.container-icons {
+    background-color: #355A8B;
+}
+.d-inline-flex{
+    margin-right: 100px;
+}
+
+nav {
     margin-top: 2.5rem;
     font-size: 1.2rem;
-  }
-  
-  .navbar {
+}
+
+.navbar {
     background-color: #a1c5e7;
-  }
-  
-  nav li {
+}
+
+nav li {
     padding: 0 15px;
-  }
-  
-  .border-end {
+}
+
+.border-end {
     color: black;
-  }
+}
   
-  
+.btn-group-vertical>.btn:not(:first-child),
+.btn-group-vertical>.btn-group:not(:first-child) {
+margin-top: 0;
+}
 
+.boton-tarjetas {
+  margin-top: 100px;
+}
 
+.modal-content {
+  width: 130%;
+
+}
 
 h1{
     font-size: 50px;
     font-weight: 900;
     position: relative;
-    padding: 4rem;
+    padding: 1rem;
     justify-content: center;
     text-align: center;
     flex-direction: column;
@@ -68,10 +87,17 @@ h4{
     font-family: 'Cinzel', serif;
     border: none;
 }
-.col{
-    margin-top: 50px;
+
+.titulo-h1{
     background-size: cover;
 }
+
+.contenedor-titulo {
+padding: 0;
+width: 100%;
+}
+
+
 .dest1{
     text-align: center;
     justify-content: center;
@@ -181,7 +207,7 @@ p{
 }
 
 header {
-    margin-bottom: 10rem;
+    margin-bottom: 9rem;
 }
 
 .imagen-destino1{
@@ -474,8 +500,19 @@ footer {
       background: #FA6742;
       border-color: #FA6742; }
 
+ #services {
+  margin-top: 15rem;
+}
 
 
+#carousel-medios-pago {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#carousel-medios-pago .carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
 
 
-    
