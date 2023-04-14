@@ -1,3 +1,7 @@
+header {
+  margin-bottom: 4rem;
+}
+
 main{
     position: relative;
     display: flex ;
@@ -60,7 +64,7 @@ margin-top: 0;
 }
 
 .boton-tarjetas {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .modal-content {
@@ -114,7 +118,7 @@ width: 100%;
     position: relative;
     padding: 4rem;
     background-color:#A1C5EF;
-    padding: 35PX;
+    padding: 35px;
 }
 .dest3{
     text-align: center;
@@ -206,9 +210,7 @@ p{
     font-weight: 400;
 }
 
-header {
-    margin-bottom: 9rem;
-}
+
 
 .imagen-destino1{
     
@@ -501,7 +503,7 @@ footer {
       border-color: #FA6742; }
 
  #services {
-  margin-top: 15rem;
+  margin-top: 12rem;
 }
 
 
