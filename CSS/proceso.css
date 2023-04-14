@@ -286,12 +286,9 @@ option{
     text-align: start;
     padding: 1rem;
 }
-.imagenDestino{
-    display: flex;
-    margin: 35px;
-    padding-top: 10px;
-    padding-left: 15px;
-    height: 290px
+.imagennn{
+margin-left: 100px;
+
 
 }
 .noti{
@@ -378,9 +375,9 @@ textarea {
 }
 .enviar2{
     width: 320px;
-    margin-top: 10px;
-    margin-left: 900px;
-    display: block;
+    margin-top: 20px;
+    margin-left: 1030px;
+    display: flex;
     position: absolute;
 }
 
@@ -653,3 +650,4 @@ nav li {
        background: #FA6742;
        border-color: #FA6742; }
  
+       
