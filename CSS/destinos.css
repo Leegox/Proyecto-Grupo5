@@ -1,3 +1,7 @@
+header {
+  margin-bottom: 4rem;
+}
+
 main{
     position: relative;
     display: flex ;
@@ -48,6 +52,9 @@ main{
   
   
 
+.boton-tarjetas {
+  margin-top: 50px;
+}
 
 
 h1{
@@ -85,7 +92,7 @@ h4{
     align-items: center;
     position: relative;
     background-color:#A1C5EF;
-    padding: 35PX;
+    padding: 35px;
 }
 .dest3{
     text-align: center;
@@ -177,9 +184,6 @@ p{
     font-weight: 400;
 }
 
-header {
-    margin-bottom: 10rem;
-}
 
 .imagen-destino1{
     
@@ -465,3 +469,23 @@ footer {
       cursor: pointer;
       background: #FA6742;
       border-color: #FA6742; }
+<<<<<<< HEAD
+=======
+
+ #services {
+  margin-top: 12rem;
+}
+
+
+#carousel-medios-pago {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#carousel-medios-pago .carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+>>>>>>> c880ee6373366dff2d8532750e35860d901708e9
