@@ -7,6 +7,7 @@ main{
     flex-direction: column;  
 }
 
+
 /* Navbar  */
 .logo {
     border-radius: 10px;
@@ -53,7 +54,6 @@ h1{
     font-size: 50px;
     font-weight: 900;
     position: relative;
-    padding: 4rem;
     justify-content: center;
     text-align: center;
     flex-direction: column;
@@ -66,7 +66,6 @@ h4{
     font-size: 30px;
     padding: 2rem;
     font-family: 'Cinzel', serif;
-    border: none;
 }
 .col{
     margin-top: 50px;
@@ -77,7 +76,6 @@ h4{
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 4rem;
     background-color: #FFFFFF;
     padding: 35px;
 }
@@ -86,7 +84,6 @@ h4{
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 4rem;
     background-color:#A1C5EF;
     padding: 35PX;
 }
@@ -378,13 +375,8 @@ footer {
  background:#355A8B
 }
 .footer-big .footer-menu ul li a,.footer-big p,.footer-big ul li {
- color:white;
+ color:white
 }
-
-.footer-big .footer-menu .contact-details li a,.footer-big p,.footer-big ul li {
-  color:#B9A700;
- }
-
 .footer-menu {
  padding-left:48px
 }
@@ -473,9 +465,3 @@ footer {
       cursor: pointer;
       background: #FA6742;
       border-color: #FA6742; }
-
-
-
-
-
-    
