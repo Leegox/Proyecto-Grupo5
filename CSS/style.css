@@ -88,6 +88,24 @@ max-width: 100%;
 
 /* Organizacion  */
 
+.background-h2 {
+  font-size: 50px;
+  font-weight: 900;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Roboto Slab", serif;
+  background-image: linear-gradient(
+    45deg,
+    #00275c 50%,
+    #ffcc00 100%,
+    #00275c 100%
+  );
+  color: white;
+}
+
+
 #organizacion {
   background-color: white;
   margin-top: 6.4rem;
@@ -294,7 +312,7 @@ color:#000
   .lorem_text {
       width: 100%;
       float: left;
-      font-size: 16px;
+      font-size: 36px;
       color: #1d1c24;
       margin-left: 0px;
       padding-bottom: 20px;
@@ -334,16 +352,42 @@ color:#000
   height: 250px; /* ajusta la altura según tus necesidades */
 }
 
-.card-title {
+.card-title-rio {
   color: white;
-  font-size: 30px;
+  font-size: 33px;
+  -webkit-text-stroke: 2px rgb(0, 79, 0);
+}
+
+.card-title-paris {
+  color: white;
+  font-size: 33px;
+  -webkit-text-stroke: 2px rgb(148, 92, 8);
+}
+
+.card-title-ny {
+  color: white;
+  font-size: 33px;
+  -webkit-text-stroke: 2px rgb(79, 14, 0);
+}
+
+.card-title-ven {
+  color: white;
+  font-size: 33px;
+  -webkit-text-stroke: 2px rgb(0, 40, 79);
 }
 
 
+.card-title-ban {
+  color: white;
+  font-size: 33px;
+  -webkit-text-stroke: 2px rgb(79, 62, 0);
+}
 
-
-
-
+.card-title-ver {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  
+}
 
 
 /* FOOTER */
@@ -525,25 +569,29 @@ footer {
       /* Counter */  
 
 .stat {
-  background: url(../assets/4242.jpg);
+  background: url(../assets/imagennubes.png);
+  background-repeat: no-repeat;
   padding-top: 50px;
      padding-bottom: 50px;
         background-attachment: fixed;
+        background-size: cover;
          margin-top: 0.1rem;
         }
                .stat i {
                  font-size: 50px;
-                 color: #355A8B;
+                 color: #000000;
+                 
                }
                
                .stat-items h2 {
                  font-size: 42px;
-                 color: #355A8B;
+                 color: #000000;
                }
                .stat p {
                  font-weight: 600;
+                 font-size: 23px;
                  letter-spacing: 1px;
-                 color: #355A8B;
+                 color: #000000;
                }
                
                .stat i:hover {
