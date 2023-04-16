@@ -146,7 +146,6 @@ max-width: 100%;
      transition: transform 0.3s ease;
 }
 
-  
 .carousel-item img {
   max-height: 900px; /* ajusta la altura según tus necesidades */
   object-fit: cover; /* ajusta la relación de aspecto de la imagen */
