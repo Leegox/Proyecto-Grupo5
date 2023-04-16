@@ -168,6 +168,7 @@ max-width: 100%;
   color: transparent;
   font-size: 40px;
   font-weight: 800;
+  font-family: "Roboto Slab", serif;
 }
 
 /* HR DIVISOR */
@@ -594,6 +595,7 @@ footer {
         color: transparent;
         font-size: 40px;
         font-weight: 800;
+        font-family: "Roboto Slab", serif;
       }
       .card-title{
         font-family: 'Cinzel', serif;
