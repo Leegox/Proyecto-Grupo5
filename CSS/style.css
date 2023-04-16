@@ -88,6 +88,15 @@ max-width: 100%;
 
 /* Organizacion  */
 
+
+.texto-orga {
+  text-align: right;
+}
+
+.container-organizacion {
+  padding: 0 10%;
+}
+
 .background-h2 {
   font-size: 50px;
   font-weight: 900;
@@ -103,6 +112,7 @@ max-width: 100%;
     #00275c 100%
   );
   color: white;
+  margin-bottom: 60px;
 }
 
 
@@ -237,7 +247,7 @@ max-width: 100%;
       left: 0;
       bottom: 0;
       background: var(--dark);
-      border-radius: 2px;
+      border-radius: 3px;
     }
     
     .section-title.text-center::before {
@@ -253,10 +263,10 @@ max-width: 100%;
     .section-title::after {
       position: absolute;
       content: "";
-      width: 5%;
+      width: 15%;
       height: 7px;
       bottom: 0px;
-      background: rgb(6, 21, 233);
+      background: #D3C653;
       -webkit-animation: section-title-run 5s infinite linear;
       animation: section-title-run 5s infinite linear;
     }
@@ -334,8 +344,60 @@ max-width: 100%;
       margin-left: 0px;
       padding-bottom: 20px;
      font-family:"roboto" serif ;
+     text-align: left;
   }
  
+
+
+      /* Counter */  
+
+      .stat {
+        background: url(../assets/imagennubes.jpeg);
+        background-repeat: no-repeat;
+        padding-top: 50px;
+           padding-bottom: 50px;
+              background-attachment: fixed;
+              background-size: cover;
+               margin-top: 0.1rem;
+              }
+                     .stat i {
+                       font-size: 50px;
+                       color: #000000;
+                       
+                     }
+                     
+                     .stat-items h2 {
+                       font-size: 42px;
+                       color: #000000;
+                     }
+                     .stat p {
+                       font-weight: 600;
+                       font-size: 23px;
+                       letter-spacing: 1px;
+                       color: #000000;
+                     }
+                     
+                     .stat i:hover {
+                       color: #B9A700;
+                     }
+      
+                     #stats {
+                      margin-top: 100px;
+                      margin-bottom: 100px;
+                     }
+      
+                     @media screen and (max-width: 1200px) {
+                      #aboutus {
+                        margin-bottom: 870px;
+                      }
+                    }
+                    
+
+
+
+
+
+
 
 
 /* CARDS DESTINOS */
@@ -575,7 +637,7 @@ footer {
         display: block;
         margin: 0 auto;
         margin-top: 100px;
-        background-color: #A1C5E7;
+        background-color: #FFEFBC;
         color: #000;
         font-family: sans-serif;
         font-size: 20px;
@@ -606,46 +668,3 @@ footer {
 
 
 
-      /* Counter */  
-
-.stat {
-  background: url(../assets/imagennubes.png);
-  background-repeat: no-repeat;
-  padding-top: 50px;
-     padding-bottom: 50px;
-        background-attachment: fixed;
-        background-size: cover;
-         margin-top: 0.1rem;
-        }
-               .stat i {
-                 font-size: 50px;
-                 color: #000000;
-                 
-               }
-               
-               .stat-items h2 {
-                 font-size: 42px;
-                 color: #000000;
-               }
-               .stat p {
-                 font-weight: 600;
-                 font-size: 23px;
-                 letter-spacing: 1px;
-                 color: #000000;
-               }
-               
-               .stat i:hover {
-                 color: #B9A700;
-               }
-
-               #stats {
-                margin-top: 100px;
-                margin-bottom: 100px;
-               }
-
-               @media screen and (max-width: 1200px) {
-                #aboutus {
-                  margin-bottom: 700px;
-                }
-              }
-              
