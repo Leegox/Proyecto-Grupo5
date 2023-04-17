@@ -82,10 +82,10 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse text-black" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav navbarrr">
                         <li class="nav-item border-end border-dark">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item border-end border-dark">
                             <a class="nav-link" href="./destinos.html">Destinos</a>
@@ -143,9 +143,9 @@
 
                             <div class="carousel-caption d-flex flex-column align-items-start justify-content-end">
                                 <div class="p-3">
-                                    <a href="./destinos.html" class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill"><u>Ver
+                                    <a href="./destinos.html" class="btn btn-warning py-md-3 px-md-5 me-3 rounded-pill"><u>Ver
                                       Destinos</u></a>
-                                    <a href="./formulariocontacto.html" class="btn btn-primary py-md-3 px-md-5 rounded-pill"><u>Contactarse</u></a>
+                                    <a href="./formulariocontacto.html" class="btn btn-warning py-md-3 px-md-5 rounded-pill"><u>Contactarse</u></a>
                                 </div>
                             </div>
                         </div>
@@ -166,12 +166,12 @@
     <main>
 
         <section id="organizacion">
-            <div class="container-fluid" >
+            <div class="container-fluid container-organizacion" >
               <h2 class="background-h2"><strong>HORNERO ARGENTINO</strong>, AEROLÍNEA PREMIUM DE ARGENTINA
                 AL MUNDO</h2>
-                <div class="row text-start roww my-5 text-center">
+                <div class="row text-start roww my-5 text-center align-items-center">
                   
-                    <div class="col-12 col-xl-8 order-first ">
+                    <div class="col-12 col-xl-6 order-first texto-orga">
                          <p class="p-text">Hornero Argentino Aerolíneas nació en 1930, en la Ciudad Autónoma de Buenos Aires, 
                           como una pequeña compañía de transporte aéreo de correos. El primer vuelo fue pilotado por Santiago Sánchez, 
                           partió con su avioneta desde el corazón de C.A.B.A. con destino a Rosario, Santa Fe. 
@@ -180,7 +180,7 @@
 
 <!-- DIV QUE CONTIENE A LAS IMAGENES Y TEXTOS DE AVIONES QUE CAMBIAN CON EL TIEMPO -->
 
-<div class="col-12 col-xl-4 col-md-8 col-sm-9 order-last text-center mx-auto" id="divAviones">
+<div class="col-12 col-xl-5 col-md-8 col-sm-9 order-last text-center mx-auto" id="divAviones">
   
   <img id="imgAvion" src="./assets/AVIONES/avion1930.jpeg" alt="Evolución aviones"> <p id="textoAvion">Primer modelo de avión de la compañía, 
     utilizado hasta la década de los ‘60.</p>
@@ -241,7 +241,7 @@
         <div class="col-md-3">
           <div class="stat-items">
             <i class="fas fa-check-circle"></i>
-            <h2><strong><span class="counter text-center">550.000</span><span>+</span></strong></h2>
+            <h2><strong><span class="counter text-center">55.000</span><span>+</span></strong></h2>
             <p><strong>Vuelos Realizados</strong></p>
           </div>
         </div>
@@ -276,7 +276,7 @@
 
 <section id="destinos">
 <div class="container text-center">
-    <h2 class="h2"><strong>NUESTROS DESTINOS</strong>, LOS MÁS VISITADIOS</h2>
+    <h2 class="h2"><strong>NUESTROS DESTINOS</strong>, LOS MÁS VISITADOS</h2>
 	<div class="row">
 		<div class="container-fluid justify-content-center contenedor-destinos">
 	<div class="row">
@@ -358,12 +358,12 @@
     </main>
 
 
-    <footer class="footer-area footer--light">
-        <div class="footer-big">
+    <footer class="footer-area footer--light ">
+        <div class="footer-big ">
           <!-- start .container -->
-          <div class="container">
+          <div class="container ">
             <div class="row">
-              <div class="col-md-3 col-12">
+              <div class="col-md-3 col-12 ">
                 <div class="footer-widget">
                   <div class="widget-about">
                     <img src="./assets/logo completo con fondo color.png" alt="" class="img-fluid">
@@ -530,9 +530,21 @@
 
 
 <!-- estrellas -->
-<body>
- 
-
+<form>
+  <p class="clasificacion">
+    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+    --><label for="radio1">★</label><!--
+    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+    --><label for="radio2">★</label><!--
+    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+    --><label for="radio3">★</label><!--
+    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+    --><label for="radio4">★</label><!--
+    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+    --><label for="radio5">★</label>
+  </p>
+</form> 
+  
 
 </body>
 
