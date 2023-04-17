@@ -55,3 +55,15 @@ window.onload = function () {
 };
 
 /* FIN JS VENTANA EMERGENTE */
+
+
+
+
+
+
+
+function mostrarAlerta(event) {
+  if (event.type === "click") {
+    alert("Gracias por puntuarnos!");
+  }
+}

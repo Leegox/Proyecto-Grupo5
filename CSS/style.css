@@ -97,23 +97,36 @@ max-width: 100%;
   padding: 0 10%;
 }
 
-.background-h2 {
-  font-size: 50px;
-  font-weight: 900;
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  font-family: "Roboto Slab", serif;
+
+
+
+
+.background-h2{
   background-image: linear-gradient(
-    45deg,
-    #00275c 50%,
-    #ffcc00 100%,
+    60deg,
+    #00275c 32.5%,
+    #ffcc00 50%,
     #00275c 100%
   );
-  color: white;
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Roboto Slab", serif;
   margin-bottom: 60px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 #organizacion {
@@ -171,15 +184,7 @@ max-width: 100%;
 .btn-primary:hover{
   background-color: #00275C;
 }
-.background-h2{
-  background-image: linear-gradient(45deg, #065cd4, #fde619,  #065cd4 );
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 40px;
-  font-weight: 800;
-  font-family: "Roboto Slab", serif;
-}
+
 
 /* HR DIVISOR */
 
@@ -304,7 +309,7 @@ max-width: 100%;
 /* NOSOTROS */
 
 #aboutus {
-  margin-bottom: 500px;
+  margin-bottom: 450px;
 }
 
     .about_section{
@@ -346,6 +351,12 @@ max-width: 100%;
      font-family:"roboto" serif ;
      text-align: left;
   }
+
+@media (max-width:413px) {
+  .lorem_text {
+    font-size: 22px;
+  }
+}
  
 
 
@@ -469,6 +480,55 @@ max-width: 100%;
   font-size: 20px;
   
 }
+
+
+/* Estrellas */
+
+#puntuanos {
+  margin-top: 50px;
+}
+
+.clasificacion label {
+  font-size: 50px;
+}
+
+ #form {
+        width: 250px;
+        margin: 0 auto;
+        height: 50px;
+      }
+      
+      #form p {
+        text-align: center;
+      }
+      
+      #form label {
+        font-size: 20px;
+      }
+      
+      input[type="radio"] {
+        display: none;
+      }
+      
+      label {
+        color: grey;
+      }
+      
+      .clasificacion {
+        direction: rtl;
+        unicode-bidi: bidi-override;
+      }
+      
+      label:hover,
+      label:hover ~ label {
+        color: orange;
+      }
+      
+      input[type="radio"]:checked ~ label {
+        color: orange;
+      }
+
+
 
 
 /* FOOTER */
@@ -668,42 +728,7 @@ footer {
 
 
 
-      #form {
-        width: 250px;
-        margin: 0 auto;
-        height: 50px;
-      }
-      
-      #form p {
-        text-align: center;
-      }
-      
-      #form label {
-        font-size: 20px;
-      }
-      
-      input[type="radio"] {
-        display: none;
-      }
-      
-      label {
-        color: grey;
-      }
-      
-      .clasificacion {
-        direction: rtl;
-        unicode-bidi: bidi-override;
-      }
-      
-      label:hover,
-      label:hover ~ label {
-        color: orange;
-      }
-      
-      input[type="radio"]:checked ~ label {
-        color: orange;
-      }
-
+     
 
 
 
