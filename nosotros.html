@@ -32,7 +32,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
-
+<!-- FAVICON -->
+  <link rel="icon" href="./favicon-32x32.png" type="png">
 
   <!-- CSS -->
   <link rel="stylesheet" href="./CSS/nosotros.css">
@@ -147,9 +148,9 @@
 
 
 
-    <section class="container-fluid text-center" id="h1">
+    <section class="container-fluid text-center">
       <section class="col">
-        <h1 class="h1">ACERCA DE NOSOTROS</h1>
+        <h1 class="h1" id="h1">ACERCA DE NOSOTROS</h1>
       </section>
 
       <section class="dest1 row">
@@ -295,32 +296,38 @@
             <div class="mb-3">
               <label for="nombre" class="form-label">Nombre</label>
               <input type="text" class="form-control" id="nombre">
+              <span></span>
             </div>
             <div class="mb-3">
               <label for="apellido" class="form-label">Apellido</label>
               <input type="text" class="form-control" id="apellido">
+              <span></span>
             </div>
             <div class="mb-3">
               <label for="edad" class="form-label">Edad</label>
               <input type="number" class="form-control" id="edad">
+              <span></span>
             </div>
             <div class="mb-3">
               <label for="telefono" class="form-label">Telefono</label>
               <input type="tel" class="form-control" id="telefono">
+              <span></span>
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Email</label>
               <input type="email" class="form-control" id="email">
+              <span></span>
             </div>
             <div class="mb-3">
               <label for="cv" class="form-label">Cargar CV</label>
               <input class="form-control" type="file" id="cv" name="cv">
+              <span></span>
             </div>
           </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Enviar</button>
+          <button type="button" class="btn btn-primary" id="enviarcv">Enviar</button>
         </div>
       </div>
     </div>
