@@ -64,6 +64,6 @@ window.onload = function () {
 
 function mostrarAlerta(event) {
   if (event.type === "click") {
-    alert("Gracias por puntuarnos!");
+    alert("¡Gracias por puntuarnos!");
   }
 }

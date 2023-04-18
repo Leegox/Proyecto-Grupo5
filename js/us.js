@@ -20,3 +20,9 @@ buttons.forEach((btn) => {
 });
 
 
+const botonEnviar = document.getElementById('enviarcv');
+
+
+botonEnviar.addEventListener('click', () => {
+  alert('¡Gracias por enviarnos tu CV, fue registrado con éxito!');
+});
