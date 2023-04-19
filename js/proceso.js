@@ -6,9 +6,6 @@ function mostrar(){
 
 
 
-
-
-
 const btnEnviar = document.getElementById("enviar-formulario");
 
 btnEnviar.addEventListener("click", () => {
@@ -41,4 +38,30 @@ btnEnviar.addEventListener("click", () => {
 });
 
 
+//validacion de form1
+function validar() {
+  // Obtener los valores de los campos
+  const nombre = document.getElementById("nom").value.trim();
+  const apellido = document.getElementById("ap").value.trim();
   
+  // Validar que los campos no estén vacíos
+  if (nombre === "") {
+    alert("Debe completar el campo: Nombre.");
+    return false;
+  }
+  if (apellido === ""){
+    alert("Debe completar el campo: Apellido:.");
+    return false;
+  }
+  // Validar que los campos sean alfanuméricos
+  const alfanumerico = /^[a-zA-Z0-9]+$/;
+  if (!nombre.match(alfanumerico) || !apellido.match(alfanumerico)) {
+    alert("Los campos solo pueden contener letras.");
+    return false;
+  }
+  
+  // Si se pasan todas las validaciones, enviar el formulario
+  alert("Formulario enviado correctamente.");
+  return true;
+}
+
