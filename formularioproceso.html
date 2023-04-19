@@ -155,7 +155,8 @@
         </svg>
 
         <label for="nom"><strong>Nombre completo: *</strong></label><br>
-        <input  type="text" placeholder="ej.: Hornero" name="nom" id="nom" value="" >
+        <input  type="text" placeholder="ej.: Hornero" name="nom" id="nom" value="">
+        <span id="spanNom"></span>
         
     </div>
 
@@ -167,6 +168,7 @@
 
         <label for="ap"><strong>Apellido/s: *</strong></label><br>
         <input type="text" placeholder="ej.: Argentino" name="ap" id="ap" value="">
+        <span id="spanAp"></span>
 
     </div>
 </div>
@@ -191,6 +193,7 @@
                     <input type="radio" name="my-input" id="check">
                     <label for="dni"><strong>Pasporte: *</strong></label>
                     <input type="text" placeholder="XXXXXXXX" name="dni" id="dni" value="">
+                    <span id="spanDni"></span>
                 </div>
 
             </div>
@@ -206,7 +209,8 @@
                     <strong>Télefono</strong></label>
                     <input type="radio" name="my-input" id="check">
                     <label for="cel"><strong>Celular:</strong></label>
-                    <input type="text" placeholder="ej.: (área) XXXX - XXXX" name="tel/cel" id="tel/cel" value="">
+                    <input type="text" placeholder="ej.: (área) XXXX - XXXX" name="tel/cel" id="tel-cel" value="">
+                    <span id="spanTel"></span>
                 </div>
 
             </div>
@@ -222,6 +226,7 @@
 
                 <label for="direc"><strong>Dirección (ciudad y pais): *</strong></label><br>
                 <input type="text" placeholder="ej.: Buenos Aires, Argentina" name="direc" id="direc" value="">
+                <span id="spanDirec"></span>
 
             </div>
 
@@ -234,6 +239,7 @@
 
                 <label for="e-mail"><strong>E-mail de Contacto:*</strong></label><br>
                 <input type="text" placeholder="ejemplo@gmail.com" name="direc" id="e-mail" value="">
+                <span id="spanEmail"></span>
 
             </div>
         </div>
@@ -242,7 +248,7 @@
         
     </section>
 
-        <h4><button type="button" class="btn btn-primary" id="boton" onclick="validar(), mostrar();"><u>Siguiente</u><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+        <h4><button type="button" class="btn btn-primary" id="boton" onclick="mostrar();"><u>Siguiente</u><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
     <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
     </svg></button></h4>
     
@@ -274,6 +280,7 @@
                     <input type="radio" name="my-input" id="check">
                     <label for="num"><strong>Queja: *</strong></label>
                     <input type="text" placeholder="XXXXXXXX  |  ej.: Vuelo atrasado " name="num" id="num" value="">
+                    <span id="spanTransac"></span>
             </div>
         </div>
 
@@ -286,7 +293,7 @@
                 </svg>
                 
 
-                        <label for="reclamo"><strong>Detalles del reclamo/queja: *</strong></label>
+                        <label for="reclamo"><strong>Detalles del reclamo/queja: </strong></label>
                         <textarea placeholder="Máximo 1000 caracteres" id="comentarios"></textarea>
                 
             </div>

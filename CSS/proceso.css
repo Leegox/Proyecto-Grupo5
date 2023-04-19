@@ -17,10 +17,11 @@ body {
     font-size: x-large;
     border-radius: 30px;
     background-color: #041429;
-    width: 1200px;
+    width: 1240px;
     position: relative;
     margin: 40px;
     display: block;
+    height: 1200px;
 }
 .MAYOR{
     width: 600px;
@@ -166,20 +167,20 @@ input {
     background-color: rgb(206, 206, 206);
 }
 .nombre {
-    width: 550px;
-    height: 180px;
+    width: 600px;
+    height: 200px;
     padding: 1rem;
     text-align: start;
 }
 .apellido {
-    width: 550px;
-    height: 180px;
+    width: 600px;
+    height: 200px;
     padding: 1rem;
     text-align: start;
 }
 .dni {
-    width: 550px;
-    height: 180px;
+    width: 600px;
+    height: 200px;
     padding: 1rem;
     text-align: start;
 }
@@ -188,23 +189,24 @@ input {
     width: 20px;
     height: 20px;
     margin:5px;
+    display:inline-flex;
 }
 .telefono {
-    width: 550px;
-    height: 180px;
+    width: 600px;
+    height: 200px;
     padding: 1rem;
     text-align: start;
 }
 
 .direc {
-    width: 550px;
-    height: 180px;
+    width: 600px;
+    height: 200px;
     padding: 1rem;
     text-align: start;
 }
 .e-mail{
-    width: 550px;
-    height: 180px;
+    width: 600px;
+    height: 200px;
     padding: 1rem;
     text-align: start;
 }
@@ -233,11 +235,11 @@ input {
     font-size: x-large;
     border-radius: 30px;
     background-color: #041429;
-    width: 1200px;
+    width: 1240px;
     position: relative;
     margin: 40px;
     display: block;
-    height: 2200px;
+    height: 2230px;
 }
 .form-control{
     border-radius: 15px;
@@ -267,6 +269,7 @@ option{
     height: 180px;
     padding: 1rem;
     text-align: start;
+    margin-left: 40px;
 }
 .pasajerosMenores{
     width: 550px;
@@ -279,6 +282,7 @@ option{
     height: 180px;
     padding: 1rem;
     text-align: start;
+    margin-left: 40px;
 }
 .Destino{
     width: 550px;
@@ -306,34 +310,27 @@ option{
     top: -125px;
     height: 300px;
     width: 572px;
-    
+    margin-left: 40px;
     
 
     
-}
-
-
-.noti{
-    justify-content: flex-start;
-    align-items: start;
-    display: flex;
-    margin-bottom: 10px;
-    margin-left: 25px;
-    padding: 1rem;
-    width: 500px;
-    flex-direction: row;
 }
 .notificaciones{
+    width: 600px;
     text-align: start;
     flex-direction: column;
     padding: 1rem;
-    margin-left:35px ;
+    margin-left:45px ;
 }
+
 #recibir{
-    width: 500px;
+
+    width: 550px;
+}
+#noRecibir{
+    width: 550px;
 }
 #soloPromos{
-    align-items: flex-start;
     width: 550px;
 }
 
@@ -375,18 +372,18 @@ option{
     font-size: x-large;
     border-radius: 30px;
     background-color: #041429;
-    width: 1200px;
+    width: 1240px;
     position: relative;
     margin: 40px;
     display: block;
-    height: 930px;
+    height: 950px;
 }
 
 textarea {
     border-radius: 15px;
     padding: 1rem;
     margin: 10px;
-    width: 1100px;
+    width: 1150px;
     height: 200px;
     text-align: center;
     font-size: medium;
@@ -415,13 +412,14 @@ textarea {
     flex-direction: column;
     margin: 30px;
     padding: 2px;
+    width: 1150px;
 }
 #num{
-    width: 1100px;
+    width: 1150px;
 }
 #reclamo{
     margin-bottom: 100px;
-    width: 1100px;
+    width: 1150px;
     padding: 120px;
     flex-direction: column;
     justify-content: start;
@@ -605,9 +603,11 @@ nav li {
   color:#B9A700
  }
  .footer-menu--1 {
-  width:100%
+  width:100%;
+
  }
  .footer-widget-title {
+    width: 190px;
   line-height:42px;
   margin-bottom:10px;
   font-size:18px
@@ -680,4 +680,8 @@ nav li {
        cursor: pointer;
        background: #FA6742;
        border-color: #FA6742; }
- 
+
+       span{
+        margin-left: 10px;
+        font-size: 20px;
+       }
