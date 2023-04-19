@@ -11,6 +11,15 @@
     margin-left: 5rem;
   }
   
+.texto-left {
+  text-align: left;
+}
+
+  .texto-right {
+      text-align: right;
+  }
+
+
   .navbar-brand {
     margin-left: 5rem;
   }
@@ -400,19 +409,22 @@
   
 
 
-.h1{
-  font-size: 40px;
-  font-weight: 800;
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  font-family: "Roboto Slab", serif;
-  background-image: linear-gradient(45deg, #065cd4, #fde619,  #065cd4 );
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
+  .h1{
+    background-image: linear-gradient(
+      60deg,
+      #00275c 41%,
+      #ffcc00 50%,
+      #00275c 65%
+    );
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 60px;
+  }
 
 
 h4{
@@ -540,7 +552,7 @@ header {
     
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin-right: 100px;
     width: 400px;
 
 }
@@ -558,7 +570,7 @@ header {
 
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin-right: 100px;
     width: 400px;
 
 }
@@ -576,7 +588,7 @@ header {
 
     justify-content: center;
     align-items: center;
-    margin-left: 100px;
+    margin-right: 100px;
     width: 400px;
 
 }
