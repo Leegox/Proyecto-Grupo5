@@ -65,3 +65,43 @@ function validar() {
   return true;
 }
 
+
+
+// Variable global para contar el número de objetos
+let numObjetos = 0;
+
+// Array para almacenar los objetos
+const arrayDatos = [];
+
+function guardarDatos() {
+  // Obtener valores de los campos
+  var nombre = document.getElementById("nom").value;
+  var apellido = document.getElementById("ap").value;
+  var dni = document.getElementById('dni').value;
+  var tel = document.getElementById('tel/cel').value;
+  var direc = document.getElementById('direc').value;
+  var email = document.getElementById('e-mail').value;
+  var numPedido = document.getElementById('num').value;
+
+  // Incrementar contador de objetos
+  numObjetos++;
+
+  // Crear objeto para almacenar los datos
+  const datos = {
+    id: numObjetos,
+    nombre: nombre,
+    apellido: apellido,
+    dni: dni,
+    tel: tel,
+    direccion: direc,
+    email: email,
+    Pedido: numPedido,
+  };
+
+  // Agregar objeto al array
+  arrayDatos.push(datos);
+
+  // Hacer algo con los datos
+  console.log(datos);
+  console.log(arrayDatos);
+}
