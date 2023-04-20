@@ -28,6 +28,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/loader.css">
 
 
     <!--   ROBOTO SLAB FONT EXTRA 900 -->
@@ -45,6 +46,12 @@
 </head>
 
 <body>
+
+  <div id="root">
+    <div id="wrapper">
+      <div class="spinner"></div>
+    </div>
+    <div id="app">
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-success fixed-top">
@@ -548,16 +555,16 @@
 
     <!--  CODIGO DE VENTANA EMERGENTE -->
 
-<!--        <div id="cookie-popup">
+       <div id="cookie-popup">
     <div id="cookie-container">
         <h2>Este sitio web utiliza cookies</h2>
         <p>Para brindarle la mejor experiencia, utilizamos cookies. Para continuar y visualizar nuestro sitio web, por favor acepte el uso de cookies.</p>
         <button id="accept-cookies">Aceptar</button>
     </div>
-</div> -->
+</div>
     <!-- FIN CODIGO DE VENTANA EMERGENTE -->
 
-    <script src="./js/main.js"></script>
+
 
 <!-- partial -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
@@ -567,7 +574,12 @@
 
 
   
+</div>
+</div>
 
+<script src="./js/main.js"></script>
+<script src="./js/loader.js"></script>
 </body>
+
 
 </html>
