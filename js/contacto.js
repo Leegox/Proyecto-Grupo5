@@ -7,12 +7,10 @@ selectorImagen.addEventListener("change", function () {
   miImagen.src = selectorImagen.value;
 });
 
-/* PARA CAMBIAR LA IMAGEN DEL DESTINO DESEADO */
+//generar el pdf
 
-// Agregar evento de clic al botón "Enviar"
-const btnEnviar = document.getElementById("enviar_formulario");
+function pdfGenContacto(){
 
-btnEnviar.addEventListener("click", () => {
   // Obtener los valores de los campos del formulario
   const nombre = document.getElementById("nom").value;
   const apellido = document.getElementById("ap").value;
@@ -28,7 +26,6 @@ btnEnviar.addEventListener("click", () => {
   const doc = new jsPDF();
 
 
-  // Agregar el texto al documento PDF
 // Agregar el texto al documento PDF
 doc.text(`Muchas gracias ${nombre} ${apellido} por contactarte con nosotros.`, 10, 20);
 doc.text(`Recibiras tambien una copia de este pdf al mail ${email}.`, 10, 30);
@@ -42,8 +39,8 @@ doc.text('Muchas gracias por confiar en Hornero Argentino.', 10, 80);
 
   // Guardar el documento PDF
   doc.save("formulario-pedido.pdf");
-});
-
+;
+}
 
 
 //validacion de formulario
@@ -51,11 +48,14 @@ doc.text('Muchas gracias por confiar en Hornero Argentino.', 10, 80);
 const botonEnviar = document.getElementById('enviar_formulario');
 
 botonEnviar.addEventListener('click', (event) => {
-  if (nombre.value === '' || apellido.value === '' || email.value === ''  || telefono.value === '' || isNaN(telefono.value) || fechaSalida.value === '' || fechaRegreso.value === '' || pasajerosMen.value === '' || pasajerosMay.value === '' || destino.value === ''|| motivo.value === ''|| codigo.value === '' || noti.value === '') {
+  if (nombre.value === '' || apellido.value === '' || email.value === ''  || telefono.value === '' || isNaN(telefono.value) || fechaSalida.value === '' || fechaRegreso.value === '' || pasajerosMen.value === '' || pasajerosMay.value === '') {
     alert('Por favor, complete todos los campos antes de enviar el formulario.');
     event.preventDefault();
   } else {
     alert('¡Tu solicitud fue registrada con éxito!');
+
+    pdfGenContacto();
+
     form.submit();
   }
 });
@@ -70,10 +70,6 @@ const fechaSalida = document.querySelector('#fechaSalida');
 const fechaRegreso = document.querySelector('#fechaRegreso');
 const pasajerosMen = document.querySelector('#pMenores');
 const pasajerosMay = document.querySelector('#pMayores');
-const destino = document.querySelector('#destino');
-const motivo = document.querySelector('#Motivo');
-const codigo = document.querySelector('#descuento');
-const noti = document.querySelector('.notificaciones');
 const enviarBtn = document.querySelector('#enviar_formulario');
 
 
@@ -144,16 +140,4 @@ enviarBtn.addEventListener('click', (event) => {
     pasajerosMay.parentNode.querySelector('span').textContent = '';
     }
 
-    // Validar el campo de destino
-    if (destino.value === "" || isNaN(destino.value)) {
-      destino.parentNode.querySelector('span').textContent = 'Por favor, ingrese su destino';
-      destino.parentNode.querySelector('span').style.color = 'red';
-    } else {
-    destino.parentNode.querySelector('span').textContent = '';
-    }
-
-  // Verificar si todos los campos están completos
-  if (nombre.value !== '' && apellido.value !== '' && (email.value) && !isNaN(telefono.value) && fechaSalida.value !=='' && fechaRegreso.value !== '' && pasajerosMen.value !== '' && pasajerosMay.value !== '' && destino.value !== '' && noti.value !== '') {
-    form.submit(); // Enviar el formulario
-  }
 });

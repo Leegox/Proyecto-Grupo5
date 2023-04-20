@@ -5,10 +5,9 @@ function mostrar(){
 };
 
 
+function pdfGen(){
 
-const btnEnviar = document.getElementById("enviar-formulario");
 
-btnEnviar.addEventListener("click", () => {
   // Obtener los valores de los campos del formulario
   const nombre = document.getElementById('nom').value;
   const apellido = document.getElementById('ap').value;
@@ -35,7 +34,7 @@ btnEnviar.addEventListener("click", () => {
 
   // Guardar el documento PDF
   doc.save("formulario-pedido.pdf");
-});
+};
 
 
 const botonEnviar = document.getElementById('enviar-formulario');
@@ -46,6 +45,9 @@ botonEnviar.addEventListener('click', (event) => {
     event.preventDefault();
   } else {
     alert('¡Tu solicitud fue registrada con éxito!');
+
+pdfGen();
+
     form.submit();
   }
 });
