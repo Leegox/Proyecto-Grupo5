@@ -16,7 +16,7 @@
 }
 
   .texto-right {
-      text-align: right;
+   text-align: right;
   }
 
 
@@ -437,13 +437,12 @@ h4{
     background-size: cover;
 }
 .dest1{
-    text-align: center;
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 4rem;
+    padding: 2rem;
     background-color: #FFFFFF;
-    padding: 35px;
+
 }
 .dest2{
     text-align: center;
@@ -554,8 +553,9 @@ header {
     align-items: center;
     margin-right: 100px;
     width: 400px;
-
 }
+
+
 
 .imagen-destino2{
 
@@ -652,7 +652,11 @@ header {
 
   @media (max-width:1200px) {
     .imagen-destinos {
-padding-right: 520px;
+margin: auto;
+width: 100%;
+    }
+    .descripcion {
+      text-align: center;
     }
 
   }
