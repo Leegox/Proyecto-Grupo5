@@ -626,6 +626,11 @@ nav li {
   margin-bottom:10px;
   font-size:18px
  }
+
+.menu {
+    padding-right: 33px;
+}
+
  .mini-footer {
     position: relative;
   background:#192027;

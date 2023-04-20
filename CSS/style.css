@@ -215,19 +215,21 @@ max-width: 100%;
   padding: 20px;
   border-radius: 5px;
   text-align: center;
-}
+  }
 
 #accept-cookies {
-  background-color: #4CAF50;
+  background-color: #0067a7;
   color: white;
   border: none;
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 10%;
 }
 
 #accept-cookies:hover {
-  background-color: #3e8e41;
+  background-color: #dfdf13;
+  color: black;
 }
 
 /* FIN CSS DE VENTANA EMERGENTE */
