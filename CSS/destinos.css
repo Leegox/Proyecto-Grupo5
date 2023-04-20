@@ -1,5 +1,5 @@
 header {
-  margin-bottom: 4rem;
+  margin-bottom: 12rem;
 }
 
 /* Navbar  */
@@ -73,14 +73,23 @@ main {
 
 
 .textod {
+  background-image: linear-gradient(
+    60deg,
+    #00275c 41%,
+    #ffcc00 50%,
+    #00275c 65%
+  );
+     text-align: center;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(45deg, #065cd4, #fde619,  #065cd4 );
+  font-size: 60px;
   font-weight: 800;
-  font-size: 40px;
   font-family: "Roboto Slab", serif;
+  margin-bottom: 30px;
 }
+
+
 
 h4 {
   font-size: 30px;
@@ -92,7 +101,7 @@ h4 {
   background-size: cover;
 }
 .dest1 {
-  text-align: center;
+  text-align: left;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -100,7 +109,7 @@ h4 {
   padding: 35px;
 }
 .dest2 {
-  text-align: center;
+  text-align: right;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -108,7 +117,7 @@ h4 {
   padding: 35px;
 }
 .dest3 {
-  text-align: center;
+  text-align: left;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -117,7 +126,7 @@ h4 {
   padding: 35px;
 }
 .dest4 {
-  text-align: center;
+  text-align: right;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -126,7 +135,7 @@ h4 {
   padding: 35px;
 }
 .dest5 {
-  text-align: center;
+  text-align: left;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -135,7 +144,7 @@ h4 {
   padding: 35px;
 }
 .dest6 {
-  text-align: center;
+  text-align: right;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -144,7 +153,7 @@ h4 {
   padding: 35px;
 }
 .dest7 {
-  text-align: center;
+  text-align: left;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -153,7 +162,7 @@ h4 {
   padding: 35px;
 }
 .dest8 {
-  text-align: center;
+  text-align: right;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -162,7 +171,7 @@ h4 {
   padding: 35px;
 }
 .dest9 {
-  text-align: center;
+  text-align: left;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -171,7 +180,7 @@ h4 {
   padding: 35px;
 }
 .dest10 {
-  text-align: center;
+  text-align: right;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -180,7 +189,7 @@ h4 {
   padding: 35px;
 }
 .dest11 {
-  text-align: center;
+  text-align: left;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -189,11 +198,21 @@ h4 {
   padding: 35px;
 }
 
-p {
+.tituloDestinos {
+  font-family: "Lobster";
+  margin-bottom: 2rem;
+  font-size: 40px;
+margin-top: 2rem;
+}
+
+
+
+.parrafos {
   font-size: 20px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 25px;
 }
 
 .imagen-destino1 {

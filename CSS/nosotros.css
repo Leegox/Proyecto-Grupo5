@@ -69,6 +69,7 @@
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+    
   }
   
   .card[data-state="#about"] {
@@ -104,6 +105,7 @@
   .card.is-active .card-jobtitle {
     left: 86px;
     transform: none;
+   
   }
   .card.is-active .card-fullname {
     bottom: 18px;
@@ -416,14 +418,14 @@
       #ffcc00 50%,
       #00275c 65%
     );
-    text-align: center;
+       text-align: center;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 800;
     font-family: "Roboto Slab", serif;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
 
@@ -544,7 +546,7 @@ p{
 }
 
 header {
-    margin-bottom: 10rem;
+    margin-bottom: 12rem;
 }
 
 .imagen-destino1{
@@ -661,7 +663,9 @@ width: 100%;
 
   }
 
-
+  .parrafos {
+    font-size: 25px;
+  }
 
    /* FOOTER */
 
@@ -831,7 +835,8 @@ footer {
   }
   
   
-  
+ /*  CARTA DE ENVIAR CV */
+
   .card {
     max-width: 340px;
     margin: auto;
@@ -1045,7 +1050,7 @@ footer {
   }
   .card-buttons button.is-active, .card-buttons button:hover {
     color: #2b2c48;
-    border-bottom: 3px solid #8a84ff;
+    border-bottom: 3px solid #1c15a8;
     background: linear-gradient(to bottom, rgba(127, 199, 231, 0) 0%, rgba(207, 204, 255, 0.2) 44%, rgba(211, 226, 255, 0.4) 100%);
   }
   
