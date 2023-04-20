@@ -144,8 +144,8 @@ enviarBtn.addEventListener('click', (event) => {
     pasajerosMay.parentNode.querySelector('span').textContent = '';
     }
 
-    // Validar el campo de destino deseado
-    if (destino.value === '') {
+    // Validar el campo de destino
+    if (destino.value === "" || isNaN(destino.value)) {
       destino.parentNode.querySelector('span').textContent = 'Por favor, ingrese su destino';
       destino.parentNode.querySelector('span').style.color = 'red';
     } else {
