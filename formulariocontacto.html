@@ -155,6 +155,7 @@
     
             <label for="nom"><strong>Nombre completo: *</strong></label><br>
             <input  type="text" placeholder="ej.: Hornero" name="nom" id="nom" value="">
+            <span></span>
             
         </div>
     
@@ -166,6 +167,7 @@
     
             <label for="ap"><strong>Apellido/s: *</strong></label><br>
             <input type="text" placeholder="ej.: Argentino" name="ap" id="ap" value="">
+            <span></span>
     
         </div>
     </div>
@@ -187,6 +189,7 @@
     
                     <label for="e-mail"><strong>E-mail de Contacto:*</strong></label><br>
                     <input type="text" placeholder="ejemplo@gmail.com" name="direc" id="e-mail" value="">
+                    <span></span>
     
                 </div>
     
@@ -201,7 +204,8 @@
                         <strong>Télefono</strong></label>
                         <input type="radio" name="my-input" id="check">
                         <label for="cel"><strong>Celular:</strong></label>
-                        <input type="text" placeholder="ej.: (área) XXXX - XXXX" name="tel/cel" id="tel/cel" value="">
+                        <input type="text" placeholder="ej.: (área) XXXX - XXXX" name="tel/cel" id="tel_cel" value="">
+                        <span></span>
                     </div>
     
                 </div>
@@ -215,6 +219,7 @@
                         </svg>
                     <label for="fechaSalida"><strong>Fecha de salida: *</strong></label><br>
                     <input type="text" placeholder="dd / mm / aa" name="fechaSalida" id="fechaSalida" value="">
+                    <span></span>
                 </div>
     
                 <div class="fechaRegreso">
@@ -223,6 +228,7 @@
                     </svg>
                     <label for="fechaRegreso"><strong>Fecha de regreso: *</strong></label><br>
                     <input type="text" placeholder="dd / mm / aa" name="fechaRegreso" id="fechaRegreso" value="">
+                    <span></span>
                 </div>
             </div>
         
@@ -244,6 +250,7 @@
         <option>3</option>
         <option>4</option>
     </select>
+    <span></span>
 </div>
 <div class="pasajerosMayores">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
@@ -258,6 +265,7 @@
             <option>3</option>
             <option>4</option>
     </select>
+    <span></span>
 
 </div>
 
@@ -287,10 +295,8 @@
             <option name="destinoImg" value="./assets/cambioDestinos/Bangkok-cambio.jpg" >Bangkok, Tailandia</option>
             <option name="destinoImg" value="./assets/cambioDestinos/Barcelona-cambio.jpg" >Barcelona, España</option>
 
-
-
-
     </select>
+    <span></span>
 
 <!-- IMAGEN QUE CAMBIA SEGUN DESTINO, falta darle position, y ubicarla, con altura y ancho correctos, LUEGO DE ESO CAMBIAR EL SRC DE IMG A scr="" así vacío -->
 
@@ -314,6 +320,7 @@
     <option>Estudios</option>
     <option>Emigración</option>
 </select>
+
 
 </div>
 
@@ -339,7 +346,7 @@
         <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1.5a.5.5 0 0 1-1 0V11a.5.5 0 0 1 1 0Zm0 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
     </svg>
 
-<label for="Notificaciones"><strong>Recibir notificaciones por correo: *</strong></label>
+<label for="Notificaciones"><strong>Recibir notificaciones por correo: </strong></label>
                     <section id="recibir">
 
                         <input type="radio" name="my-input" id="check">
@@ -359,6 +366,7 @@
 
 </section>
 
+
 </div>
 <div class="col-md-12 COL7">
 
@@ -370,6 +378,7 @@
 
             <label for="Comentario"><strong>Mensaje/Comentario adicional: </strong></label>
             <textarea placeholder="Máximo 1000 caracteres"></textarea>
+          
 
 
 
@@ -377,7 +386,7 @@
 </div>
     </section>
     <section class="enviar2">
-      <h4><button type="button" class="btn btn-primary" id="enviar-formulario"><u>Enviar</u><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
+      <h4><button type="button" class="btn btn-primary" id="enviar_formulario"><u>Enviar</u><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-square-fill" viewBox="0 0 16 16">
         <path d="M0 14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v12zm4.5-6.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5a.5.5 0 0 1 0-1z"/>
         </svg></button></h4>
     </section>
